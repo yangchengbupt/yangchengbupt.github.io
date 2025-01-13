@@ -57,12 +57,12 @@ Mengmei Zhang, Mingwei Sun, Peng Wang, Shen Fan, Yanhu Mo, Xiaoxiao Xu, Hong Liu
 [![](https://img.shields.io/github/stars/alibaba/GraphTranslator?style=social&label=Code+Stars)](https://github.com/alibaba/GraphTranslator)
 <strong><span class='show_paper_citations' data='OlLjVUcAAAAJ:sSrBHYA8nusC'></span></strong>
 
-- <span class="conference-badge">IJCAI 2015</span>
-[(TADW) Representation Learning with Rich Text Information](https://nlp.csai.tsinghua.edu.cn/~yangcheng/publications/ijcai15.pdf)
-Cheng Yang, Zhiyuan Liu<sup>†</sup>, Deli Zhao, Maosong Sun, Edward Y. Chang
-[**Source Code**](https://github.com/benedekrozemberczki/TADW)
-[![](https://img.shields.io/github/stars/benedekrozemberczki/TADW?style=social&label=Code+Stars)](https://github.com/benedekrozemberczki/TADW)
-<strong><span class='show_paper_citations' data='OlLjVUcAAAAJ:-f6ydRqryjwC'></span></strong>
+- <span class="conference-badge">WWW 2021</span>
+[(CPF) Extract the Knowledge of Graph Neural Networks and Go Beyond it: An Effective Knowledge Distillation Framework](https://arxiv.org/abs/2103.02885)
+**Cheng Yang**, Jiawei Liu, Chuan Shi<sup>†</sup>
+<!-- [**Source Code**](https://github.com/thunlp/JNTM) -->
+[![](https://img.shields.io/github/stars/BUPT-GAMMA/CPF?style=social&label=Code+Stars)](https://github.com/BUPT-GAMMA/CPF)
+<strong><span class='show_paper_citations' data='OlLjVUcAAAAJ:e5wmG9Sq2KIC'></span></strong>
 
 - <span class="conference-badge">KDD 2020</span>
 [(AGE) Adaptive Graph Encoder for Attributed Graph Embedding](https://arxiv.org/abs/2007.01594)
@@ -78,12 +78,12 @@ Ganqu Cui, Jie Zhou, **Cheng Yang<sup>†</sup>**, Zhiyuan Liu<sup>†</sup>
 [![](https://img.shields.io/github/stars/thunlp/JNTM?style=social&label=Code+Stars)](https://github.com/thunlp/JNTM)
 <strong><span class='show_paper_citations' data='OlLjVUcAAAAJ:qjMakFHDy7sC'></span></strong>
 
-- <span class="conference-badge">WWW 2021</span>
-[(CPF) Extract the Knowledge of Graph Neural Networks and Go Beyond it: An Effective Knowledge Distillation Framework](https://arxiv.org/abs/2103.02885)
-**Cheng Yang**, Jiawei Liu, Chuan Shi<sup>†</sup>
-<!-- [**Source Code**](https://github.com/thunlp/JNTM) -->
-[![](https://img.shields.io/github/stars/BUPT-GAMMA/CPF?style=social&label=Code+Stars)](https://github.com/BUPT-GAMMA/CPF)
-<strong><span class='show_paper_citations' data='OlLjVUcAAAAJ:e5wmG9Sq2KIC'></span></strong>
+- <span class="conference-badge">IJCAI 2015</span>
+[(TADW) Representation Learning with Rich Text Information](https://nlp.csai.tsinghua.edu.cn/~yangcheng/publications/ijcai15.pdf)
+Cheng Yang, Zhiyuan Liu<sup>†</sup>, Deli Zhao, Maosong Sun, Edward Y. Chang
+[**Source Code**](https://github.com/benedekrozemberczki/TADW)
+[![](https://img.shields.io/github/stars/benedekrozemberczki/TADW?style=social&label=Code+Stars)](https://github.com/benedekrozemberczki/TADW)
+<strong><span class='show_paper_citations' data='OlLjVUcAAAAJ:-f6ydRqryjwC'></span></strong>
 
 # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
