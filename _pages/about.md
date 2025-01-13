@@ -79,11 +79,11 @@ Ganqu Cui, Jie Zhou, **Cheng Yang<sup>†</sup>**, Zhiyuan Liu<sup>†</sup>
 <strong><span class='show_paper_citations' data='OlLjVUcAAAAJ:qjMakFHDy7sC'></span></strong>
 
 - <span class="conference-badge">IJCAI 2015</span>
-[(TADW) Representation Learning with Rich Text Information](https://nlp.csai.tsinghua.edu.cn/~yangcheng/publications/ijcai15.pdf)
+[(TADW) Network Representation Learning with Rich Text Information](https://nlp.csai.tsinghua.edu.cn/~yangcheng/publications/ijcai15.pdf)
 Cheng Yang, Zhiyuan Liu<sup>†</sup>, Deli Zhao, Maosong Sun, Edward Y. Chang
 [**Source Code**](https://github.com/benedekrozemberczki/TADW)
 [![](https://img.shields.io/github/stars/benedekrozemberczki/TADW?style=social&label=Code+Stars)](https://github.com/benedekrozemberczki/TADW)
-<strong><span class='show_paper_citations' data='OlLjVUcAAAAJ:-f6ydRqryjwC'></span></strong>
+<strong><span class='show_paper_citations' data='OlLjVUcAAAAJ:u5HHmVD_uO8C'></span></strong>
 
 # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
