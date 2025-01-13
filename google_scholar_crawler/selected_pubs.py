@@ -145,7 +145,8 @@ for title in publication_titles:
     shieldio_data = {
         "schemaVersion": 1,
         "label": "citations",
-        "message": citations,
+        # 变成字符串
+        "message": f"{citations}",
     }
     
     # 保存为json文件

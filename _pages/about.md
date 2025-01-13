@@ -86,7 +86,7 @@ Cheng Yang, Zhiyuan Liu<sup>†</sup>, Deli Zhao, Maosong Sun, Edward Y. Chang
 [**Source Code**](https://github.com/benedekrozemberczki/TADW)
 [![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://github.com/benedekrozemberczki/TADW)
 <strong><span class='show_paper_citations' data='OlLjVUcAAAAJ:u5HHmVD_uO8C'></span></strong>
-(You can also use google scholar badge <a href='https://scholar.google.com/citations?user=OlLjVUcAAAAJ'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Falbertyang33%2Falbertyang33.github.io%40main%2Fresults%2Fselected_pubs%2Fu5HHmVD_uO8C.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+(You can also use google scholar badge <a href='https://scholar.google.com/citations?user=OlLjVUcAAAAJ'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Falbertyang33%2Falbertyang33.github.io%40main%2Fresults%2Fselected_pubs%2Fu5HHmVD_uO8C.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citation"></a>).
 
 # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
