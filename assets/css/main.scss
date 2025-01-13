@@ -61,6 +61,13 @@
             object-fit: cover;
         }
     }
+
+    .paper-box-image video {
+        width: 100%;
+        height: auto;
+        background-color: #f0f0f0; /* 添加背景色 */
+        min-height: 200px; /* 设置最小高度 */
+    }
     
     .paper-box-text{
         max-width: 100%;
@@ -84,6 +91,23 @@
 
     }
 
+    /* 移动端适配 */
+    @media (max-width: 768px) {
+        .paper-box {
+            flex-direction: column;
+        }
+        
+        /* 确保视频容器在上方 */
+        .paper-box-image {
+            order: -1;
+            width: 100%;
+        }
+        
+        .paper-box-text {
+            width: 100%;
+        }
+    }
+
 
 }
 
@@ -103,6 +127,36 @@ h1:before, .anchor:before {
     position: absolute;
     margin-top: .5em;
     margin-left: -.5em;
+    color: white;
+    background-color: #00369f;
+    font-size: .8em;
+}
+
+.text-badge {
+    display: inline-block;
+    padding: 4px 8px;
+    background-color: #003087;
+    color: white;
+    border-radius: 3px;
+    margin-right: 8px;
+}
+
+.conference-badge {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: white;
+    background-color: #00369f;
+    font-size: .8em;
+    display: inline-block;
+    margin-left: .5em;
+}
+
+.video-badge {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    position: absolute;
+    margin-top: .5em;
+    margin-left: -8em;
     color: white;
     background-color: #00369f;
     font-size: .8em;
