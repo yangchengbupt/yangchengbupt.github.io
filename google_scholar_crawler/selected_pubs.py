@@ -38,13 +38,14 @@ def extract_titles(markdown_content):
     for line_number, line in enumerate(lines, 1):
         # 检查是否进入 '## 🔖 Selected Publications' 部分
         if not in_selected_publications:
-            if re.match(r'^##\s*🔖\s*Selected Publications', line):
+            # # 📝 Publications
+            if re.match(r'^#\s*📝\s*Publications', line):
                 in_selected_publications = True
                 # print(f"进入 'Selected Publications' 部分 (第 {line_number} 行)")
             continue
         else:
             # 如果遇到新的标题（以 '#' 开头），则退出
-            if re.match(r'^#{1,6}\s+', line):
+            if re.match(r'^#\s*🎖\s*Honors\s*and\s*Awards', line):
                 # print(f"遇到新标题，停止提取 (第 {line_number} 行)")
                 break
             

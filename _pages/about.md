@@ -19,12 +19,15 @@ redirect_from:
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=OlLjVUcAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=OlLjVUcAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=OlLjVUcAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
+# 🏫 Work Experience
+- *2021.12 - Present*, Associate Professor, School of Computer Sciences, Beijing University of Posts and Telecommunications, Beijing, China
+- *2019.07 - 2021.12*, Lecturer, School of Computer Sciences, Beijing University of Posts and Telecommunications, Beijing, China
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2024.12*: &nbsp;🎉🎉 吴文俊人工智能科学技术奖 (青年科技奖). 
+- *2024.12*: &nbsp;🎉🎉 3 papers are accepted by AAAI 2025. 
 
 # 📝 Publications
 
@@ -62,6 +65,22 @@ Mengmei Zhang, Mingwei Sun, Peng Wang, Shen Fan, Yanhu Mo, Xiaoxiao Xu, Hong Liu
 <!-- <strong><span class='show_paper_citations' data='OlLjVUcAAAAJ:sSrBHYA8nusC'></span></strong> -->
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:sSrBHYA8nusC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Falbertyang33%2Falbertyang33.github.io%2Fmain%2Fresults%2Fselected_pubs%2FsSrBHYA8nusC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
+- <span class="conference-badge">arXiv preprint</span>
+[Towards Graph Foundation Models: A Survey and Beyond](https://arxiv.org/abs/2310.11829)
+Jiawei Liu\*, **Cheng Yang\***, Zhiyuan Lu, Junze Chen, Yibo Li, Mengmei Zhang, Ting Bai, Yuan Fang, Lichao Sun, Philip S. Yu, Chuan Shi
+<!-- [**Source Code**](https://github.com/alibaba/GraphTranslator) -->
+<!-- [![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://github.com/alibaba/GraphTranslator) -->
+<!-- <strong><span class='show_paper_citations' data='OlLjVUcAAAAJ:sSrBHYA8nusC'></span></strong> -->
+<a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:vRqMK49ujn8C'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Falbertyang33%2Falbertyang33.github.io%2Fmain%2Fresults%2Fselected_pubs%2FvRqMK49ujn8C.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
+
+- <span class="conference-badge">arXiv preprint</span>
+[Data-centric Graph Learning: A Survey](https://arxiv.org/abs/2310.04987)
+Yuxin Guo\*, Deyu Bo\*, **Cheng Yang<sup>†</sup>**, Zhiyuan Lu, Zhongjian Zhang, Jixi Liu,Yufei Peng, Chuan Shi<sup>†</sup>
+<!-- [**Source Code**](https://github.com/alibaba/GraphTranslator) -->
+<!-- [![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://github.com/alibaba/GraphTranslator) -->
+<!-- <strong><span class='show_paper_citations' data='OlLjVUcAAAAJ:sSrBHYA8nusC'></span></strong> -->
+<a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:AXPGKjj_ei8C'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Falbertyang33%2Falbertyang33.github.io%2Fmain%2Fresults%2Fselected_pubs%2FAXPGKjj_ei8C.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
+
 - <span class="conference-badge">WWW 2021</span>
 [(CPF) Extract the Knowledge of Graph Neural Networks and Go Beyond it: An Effective Knowledge Distillation Framework](https://arxiv.org/abs/2103.02885)
 **Cheng Yang**, Jiawei Liu, Chuan Shi<sup>†</sup>
@@ -95,17 +114,33 @@ Cheng Yang, Zhiyuan Liu<sup>†</sup>, Deli Zhao, Maosong Sun, Edward Y. Chang
 <!-- <strong><span class='show_paper_citations' data='OlLjVUcAAAAJ:u5HHmVD_uO8C'></span></strong> -->
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:u5HHmVD_uO8C'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Falbertyang33%2Falbertyang33.github.io%2Fmain%2Fresults%2Fselected_pubs%2Fu5HHmVD_uO8C.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
+## ⌛️ 2024
+
+
+
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+
+- *2024* World's **Top 2%** Scientists by Stanford/Elsevier.
+- *2023* Young Talent Support Project of CAST (青托计划).
+- *2022* Top 100 Chinese Young Scholars in Artificial Intelligence (Baidu)
+- *2022* World Internet Conference Awards for Pioneering Science and Technology. Systematized Basic Algorithms and Open-Source Tools for Representation Learning of Large Scale Knowledge Graph (**ranking 4th**)
+- *2020* First Prize of the State Natural Science Award, and the Outstanding Achievement Awards for Scientific Research in Institutes of Higher Education (Science and Technology) by the Ministry of Education. A Representation Learning Method for Structured Knowledge (**ranking 4th**)
+- *2020* Outstanding Doctoral Dissertation Award (Chinese Information Processing Society of China) (中文信息学会优秀博士学位论文奖)
+- *2019* Hotspot Paper Award of SCIENTIA SINICA Informationis (Network representation learning: an overview)
+- *2019* **Outstanding Graduate Award** (Department of Computer Science and Technology, Tsinghua University) (清华大学优秀毕业生)
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2014.08 - 2019.07*, Department of Computer Science and Technology, Tsinghua University Aug. 2014 - Jul. 2019, PhD, Advisor: Prof. Maosong Sun.
+
+- *2010.08 - 2014.07*, Institute for Interdisciplinary Information Sciences (Computer Science Pilot Class), Tsinghua University Aug. 2010 - Jul. 2014, B.S.
+
+<!-- Department of Computer Science and Technology, Tsinghua University Aug. 2014 - Jul. 2019, PhD, Advisor: Prof. Maosong Sun -->
+
+<!-- Institute for Interdisciplinary Information Sciences (Computer Science Pilot Class), Tsinghua University Aug. 2010 - Jul. 2014, B.S. -->
 
 # 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+- *2024*, WWW24 Tutorial: Towards Graph Foundation Models [Link](https://www2024.thewebconf.org/program/tutorials/) [Part I](../talks/WWW24Tutorial_GFM_Part1.pdf) [Part II](../talks/WWW24Tutorial_GFM_Part2.pdf) [Part III](../talks/WWW24Tutorial_GFM_Part3.pdf).
+- *2024*, IJCAI 2024 LKM workshop [Link](https://lkm2024.openkg.org/) [PDF](../talks/Towards%20Graph%20Foundation%20Models-Cheng%20Yang.pdf)
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+<!-- # 💻 Internships
+- *2019.05 - 2020.02*, [Lorem](https://github.com/), China. -->
