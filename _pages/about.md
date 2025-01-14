@@ -21,13 +21,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet 
 
 My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=OlLjVUcAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
+# 🔥 News
+- *2024.12*: &nbsp;🎉🎉 吴文俊人工智能科学技术奖 (青年科技奖). 
+- *2024.12*: &nbsp;🎉🎉 3 papers are accepted by AAAI 2025.
+
 # 🏫 Work Experience
 - *2021.12 - Present*, Associate Professor, School of Computer Sciences, Beijing University of Posts and Telecommunications, Beijing, China
 - *2019.07 - 2021.12*, Lecturer, School of Computer Sciences, Beijing University of Posts and Telecommunications, Beijing, China
-
-# 🔥 News
-- *2024.12*: &nbsp;🎉🎉 吴文俊人工智能科学技术奖 (青年科技奖). 
-- *2024.12*: &nbsp;🎉🎉 3 papers are accepted by AAAI 2025. 
 
 # 📝 Publications
 
@@ -114,7 +114,7 @@ Cheng Yang, Zhiyuan Liu<sup>†</sup>, Deli Zhao, Maosong Sun, Edward Y. Chang
 <!-- <strong><span class='show_paper_citations' data='OlLjVUcAAAAJ:u5HHmVD_uO8C'></span></strong> -->
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:u5HHmVD_uO8C'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Falbertyang33%2Falbertyang33.github.io%2Fmain%2Fresults%2Fselected_pubs%2Fu5HHmVD_uO8C.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
-## ⌛️ 2024
+<!-- ## ⌛️ 2024 -->
 
 
 
