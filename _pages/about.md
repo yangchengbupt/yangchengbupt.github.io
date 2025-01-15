@@ -106,7 +106,7 @@ Ganqu Cui, Jie Zhou, **Cheng Yang<sup>†</sup>**, Zhiyuan Liu<sup>†</sup>
 
 - <span class="conference-badge">IJCAI 2015</span>
 [(TADW) Network Representation Learning with Rich Text Information](https://nlp.csai.tsinghua.edu.cn/~yangcheng/publications/ijcai15.pdf)
-Cheng Yang, Zhiyuan Liu<sup>†</sup>, Deli Zhao, Maosong Sun, Edward Y. Chang
+**Cheng Yang**, Zhiyuan Liu<sup>†</sup>, Deli Zhao, Maosong Sun, Edward Y. Chang
 <!-- [**Source Code**](https://github.com/benedekrozemberczki/TADW) -->
 <!-- [![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://github.com/benedekrozemberczki/TADW) -->
 <!-- <strong><span class='show_paper_citations' data='OlLjVUcAAAAJ:u5HHmVD_uO8C'></span></strong> -->
