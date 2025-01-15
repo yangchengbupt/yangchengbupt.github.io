@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am Cheng Yang, currently an associate professor from Beijing University of Posts and Telecommunications. Before that, I got B.S. and Ph.D. degrees from Tsinghua University at 2014 and 2019, respectively. My research interest includes graph neural networks, large language models, network embedding, recommender systems, etc. I have published more than 50 top journal and conference papers, and gained <a href='https://scholar.google.com/citations?user=OlLjVUcAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> as shown by [Google Scholar](https://scholar.google.com/citations?user=OlLjVUcAAAAJ). I was named by Baidu as one of the Top 100 Chinese Young Scholars in Artificial Intelligence, and also supported by the Young Talent Support Project of CAST (青托计划).
+I am Cheng Yang, currently an associate professor from Beijing University of Posts and Telecommunications. Before that, I got B.S. and Ph.D. degrees from Tsinghua University at 2014 and 2019, respectively. My research interest includes graph neural networks, large language models, network embedding, recommender systems, etc. I have published more than 50 top journal and conference papers, and gained <a href='https://scholar.google.com/citations?user=OlLjVUcAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> as shown by [Google Scholar](https://scholar.google.com/citations?user=OlLjVUcAAAAJ). I was named by Baidu as one of the Top 100 Chinese Young Scholars in Artificial Intelligence, and also supported by the Young Elite Scientist Sponsorship Program by CAST (青托计划).
 
 # 🔥 News
 <!-- - *2024.12*: &nbsp;🎉🎉 吴文俊人工智能科学技术奖 (青年科技奖).  -->
@@ -119,7 +119,7 @@ Cheng Yang, Zhiyuan Liu<sup>†</sup>, Deli Zhao, Maosong Sun, Edward Y. Chang
 # 🎖 Honors and Awards
 
 - *2024* World's **Top 2%** Scientists by Stanford/Elsevier.
-- *2023* Young Talent Support Project of CAST (青托计划).
+- *2023* Young Elite Scientist Sponsorship Program by CAST (青托计划).
 - *2022* Top 100 Chinese Young Scholars in Artificial Intelligence (Baidu)
 - *2022* World Internet Conference Awards for Pioneering Science and Technology. Systematized Basic Algorithms and Open-Source Tools for Representation Learning of Large Scale Knowledge Graph (**ranking 4th**)
 - *2020* First Prize of the State Natural Science Award, and the Outstanding Achievement Awards for Scientific Research in Institutes of Higher Education (Science and Technology) by the Ministry of Education. A Representation Learning Method for Structured Knowledge (**ranking 4th**)
