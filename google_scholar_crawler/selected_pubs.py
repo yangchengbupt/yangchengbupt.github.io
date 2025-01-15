@@ -114,7 +114,7 @@ except Exception as e:
 # 提取并清理标题
 publication_titles = extract_titles(content)
 
-json_file = '../results/gs_data.json'
+json_file = f'results/gs_data.json'
 selected_data = json.load(open(json_file, 'r'))
 
 for title in publication_titles:
@@ -132,8 +132,8 @@ for title in publication_titles:
     
     # 在results文件夹下创建selected_pubs文件夹，如果不存在
     import os
-    if not os.path.exists('../results/selected_pubs'):
-        os.makedirs('../results/selected_pubs')
+    if not os.path.exists('results/selected_pubs'):
+        os.makedirs('results/selected_pubs')
     
     citations, paper_id = find_citations_by_title(selected_data, cleaned_title)
     
@@ -151,7 +151,7 @@ for title in publication_titles:
     }
     
     # 保存为json文件
-    with open(f'../results/selected_pubs/{paper_id}.json', 'w') as file:
+    with open(f'results/selected_pubs/{paper_id}.json', 'w') as file:
         json.dump(shieldio_data, file)
     
 
