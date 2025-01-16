@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am Cheng Yang, currently an associate professor from Beijing University of Posts and Telecommunications. Before that, I got B.S. and Ph.D. degrees from Tsinghua University at 2014 and 2019, respectively. My research interest includes graph neural networks, large language models, network embedding, recommender systems, etc. I have published more than 50 top journal and conference papers, and gained <a href='https://scholar.google.com/citations?user=OlLjVUcAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> as shown by [Google Scholar](https://scholar.google.com/citations?user=OlLjVUcAAAAJ). I was named by Baidu as one of the Top 100 Chinese Young Scholars in Artificial Intelligence, and also supported by the Young Elite Scientist Sponsorship Program by CAST (青托计划).
+I am Cheng Yang, currently an associate professor from Beijing University of Posts and Telecommunications. Before that, I got B.S. and Ph.D. degrees from Tsinghua University at 2014 and 2019, respectively. My research interest includes graph neural networks, large language models, network embedding, recommender systems, etc. I have published more than 50 top journal and conference papers, and gained <a href='https://scholar.google.com/citations?user=OlLjVUcAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> as shown by [Google Scholar](https://scholar.google.com/citations?user=OlLjVUcAAAAJ). I was named by Baidu as one of the Top 100 Chinese Young Scholars in Artificial Intelligence, and also supported by the Young Elite Scientist Sponsorship Program by CAST.
 
 # 🔥 News
 <!-- - *2024.12*: &nbsp;🎉🎉 吴文俊人工智能科学技术奖 (青年科技奖).  -->
@@ -38,6 +38,14 @@ Xin Li\*, Qizhi Chu\*, Yubin Chen\*, Yang Liu, Yaoqi Liu, Zekai Yu, Weize Chen, 
 <!-- [![](https://img.shields.io/github/stars/BUPT-GAMMA/GraphTeam?style=social&label=Code+Stars)](https://github.com/BUPT-GAMMA/GraphTeam) -->
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:Mojj43d5GZwC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Falbertyang33%2Falbertyang33.github.io%2Fgoogle-scholar-stats%2Fselected_pubs%2FMojj43d5GZwC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>. \
 [**Demo**](http://graphteam.cloud/gt/): **You can play it, enjoy yourself!**
+
+- <span class="conference-badge">arXiv preprint</span>
+[Towards Graph Foundation Models: A Survey and Beyond](https://arxiv.org/abs/2310.11829)
+Jiawei Liu\*, **Cheng Yang\***, Zhiyuan Lu, Junze Chen, Yibo Li, Mengmei Zhang, Ting Bai, Yuan Fang, Lichao Sun, Philip S. Yu, Chuan Shi
+<!-- [**Source Code**](https://github.com/alibaba/GraphTranslator) -->
+<!-- [![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://github.com/alibaba/GraphTranslator) -->
+<!-- <strong><span class='show_paper_citations' data='OlLjVUcAAAAJ:sSrBHYA8nusC'></span></strong> -->
+<a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:vRqMK49ujn8C'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Falbertyang33%2Falbertyang33.github.io%2Fgoogle-scholar-stats%2Fselected_pubs%2FvRqMK49ujn8C.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 - <span class="conference-badge">NeurIPS 2024</span>
 [(ProGraph) Can Large Language Models Analyze Graphs like Professionals? A Benchmark, Datasets and Models](https://arxiv.org/abs/2409.19667)
@@ -63,15 +71,7 @@ Mengmei Zhang, Mingwei Sun, Peng Wang, Shen Fan, Yanhu Mo, Xiaoxiao Xu, Hong Liu
 <!-- <strong><span class='show_paper_citations' data='OlLjVUcAAAAJ:sSrBHYA8nusC'></span></strong> -->
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:sSrBHYA8nusC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Falbertyang33%2Falbertyang33.github.io%2Fgoogle-scholar-stats%2Fselected_pubs%2FsSrBHYA8nusC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
-- <span class="conference-badge">arXiv preprint</span>
-[Towards Graph Foundation Models: A Survey and Beyond](https://arxiv.org/abs/2310.11829)
-Jiawei Liu\*, **Cheng Yang\***, Zhiyuan Lu, Junze Chen, Yibo Li, Mengmei Zhang, Ting Bai, Yuan Fang, Lichao Sun, Philip S. Yu, Chuan Shi
-<!-- [**Source Code**](https://github.com/alibaba/GraphTranslator) -->
-<!-- [![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://github.com/alibaba/GraphTranslator) -->
-<!-- <strong><span class='show_paper_citations' data='OlLjVUcAAAAJ:sSrBHYA8nusC'></span></strong> -->
-<a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:vRqMK49ujn8C'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Falbertyang33%2Falbertyang33.github.io%2Fgoogle-scholar-stats%2Fselected_pubs%2FvRqMK49ujn8C.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
-
-- <span class="conference-badge">arXiv preprint</span>
+- <span class="conference-badge">TBD 2024</span>
 [Data-centric Graph Learning: A Survey](https://arxiv.org/abs/2310.04987)
 Yuxin Guo\*, Deyu Bo\*, **Cheng Yang<sup>†</sup>**, Zhiyuan Lu, Zhongjian Zhang, Jixi Liu,Yufei Peng, Chuan Shi<sup>†</sup>
 <!-- [**Source Code**](https://github.com/alibaba/GraphTranslator) -->
@@ -118,27 +118,29 @@ Ganqu Cui, Jie Zhou, **Cheng Yang<sup>†</sup>**, Zhiyuan Liu<sup>†</sup>
 
 # 🎖 Honors and Awards
 
-- *2024* World's **Top 2%** Scientists by Stanford/Elsevier.
-- *2023* Young Elite Scientist Sponsorship Program by CAST (青托计划).
+- *2024* World's Top 2% Scientists by Stanford/Elsevier.
+- *2023* Young Elite Scientist Sponsorship Program by CAST
 - *2022* Top 100 Chinese Young Scholars in Artificial Intelligence (Baidu)
-- *2022* World Internet Conference Awards for Pioneering Science and Technology. Systematized Basic Algorithms and Open-Source Tools for Representation Learning of Large Scale Knowledge Graph (**ranking 4th**)
-- *2020* First Prize of the State Natural Science Award, and the Outstanding Achievement Awards for Scientific Research in Institutes of Higher Education (Science and Technology) by the Ministry of Education. A Representation Learning Method for Structured Knowledge (**ranking 4th**)
-- *2020* Outstanding Doctoral Dissertation Award (Chinese Information Processing Society of China) (中文信息学会优秀博士学位论文奖)
+- *2022* World Internet Conference Awards for Pioneering Science and Technology. Systematized Basic Algorithms and Open-Source Tools for Representation Learning of Large Scale Knowledge Graph (ranking 4th)
+- *2020* First Prize of the State Natural Science Award, and the Outstanding Achievement Awards for Scientific Research in Institutes of Higher Education (Science and Technology) by the Ministry of Education. A Representation Learning Method for Structured Knowledge (ranking 4th)
+- *2020* Outstanding Doctoral Dissertation Award (Chinese Information Processing Society of China)
 - *2019* Hotspot Paper Award of SCIENTIA SINICA Informationis (Network representation learning: an overview)
-- *2019* **Outstanding Graduate Award** (Department of Computer Science and Technology, Tsinghua University) (清华大学优秀毕业生)
+- *2019* Outstanding Graduate Award (Department of Computer Science and Technology, Tsinghua University)
 
 # 📖 Educations
-- *2014.08 - 2019.07*, Department of Computer Science and Technology, Tsinghua University Aug. 2014 - Jul. 2019, PhD, Advisor: Prof. Maosong Sun.
+- *2014.08 - 2019.07*, Ph.D, Department of Computer Science and Technology, Tsinghua University, supervised by Prof. Maosong Sun.
 
-- *2010.08 - 2014.07*, Institute for Interdisciplinary Information Sciences (Computer Science Pilot Class), Tsinghua University Aug. 2010 - Jul. 2014, B.S.
+- *2010.08 - 2014.07*, B.S, Institute for Interdisciplinary Information Sciences (Computer Science Pilot Class), Tsinghua University.
 
 <!-- Department of Computer Science and Technology, Tsinghua University Aug. 2014 - Jul. 2019, PhD, Advisor: Prof. Maosong Sun -->
 
 <!-- Institute for Interdisciplinary Information Sciences (Computer Science Pilot Class), Tsinghua University Aug. 2010 - Jul. 2014, B.S. -->
 
 # 💬 Invited Talks
-- *2024*, WWW24 Tutorial: Towards Graph Foundation Models [Link](https://www2024.thewebconf.org/program/tutorials/) [Part I](../talks/WWW24Tutorial_GFM_Part1.pdf) [Part II](../talks/WWW24Tutorial_GFM_Part2.pdf) [Part III](../talks/WWW24Tutorial_GFM_Part3.pdf).
-- *2024*, IJCAI 2024 LKM workshop [Link](https://lkm2024.openkg.org/) [PDF](../talks/Towards%20Graph%20Foundation%20Models-Cheng%20Yang.pdf)
+- [WWW24 Tutorial](https://www2024.thewebconf.org/program/tutorials/) Towards Graph Foundation Models  [Part I](../talks/WWW24Tutorial_GFM_Part1.pdf) [Part II](../talks/WWW24Tutorial_GFM_Part2.pdf) [Part III](../talks/WWW24Tutorial_GFM_Part3.pdf).
+- Collaboration Framework of LLM-based Agents [PDF](../talks/multi-agent.pdf)
+- Trustworthy Learning of Graph Neural Networks [PDF](../talks/Trustworthy%20GNNs.pdf)
+- [IJCAI 2024 LKM workshop](https://lkm2024.openkg.org/) Towards Graph Foundation Models  [PDF](../talks/Towards%20Graph%20Foundation%20Models-Cheng%20Yang.pdf)
 
 <!-- # 💻 Internships
 - *2019.05 - 2020.02*, [Lorem](https://github.com/), China. -->

@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Cheng Yang's Homepage"
-description              : "Professor at Beijing University of Posts and Telecommunications. Focus on LLM and Graph(GNN and other topics)."
+title                    : "Cheng Yang (杨成)"
+description              : "Associate Professor at Beijing University of Posts and Telecommunications."
 repository               : "albertyang33/yangcheng.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -21,9 +21,9 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Cheng Yang(杨成)"
+  name             : "Cheng Yang (杨成)"
   avatar           : "images/android-chrome-192x192.png"
-  bio              : "Beijing University of Posts and Telecommunications"
+  bio              : ""
   location         : "Beijing, China"
   employer         :
   pubmed           : 
