@@ -244,10 +244,18 @@ def long_id_citations():
         # 检查是否存在paper_id.json文件，如果不存在则创建
         # if not os.path.exists(f'results/selected_pubs/{paper_id}.json'):
         #     os.mknod(f'results/selected_pubs/{paper_id}.json')
+    
+        try:
+            
+            with open(f'results/selected_pubs/{paper_id}.json', 'w') as file:
+                json.dump(shieldio_data, file)
+                count += 1
         
-        with open(f'results/selected_pubs/{paper_id}.json', 'w') as file:
-            json.dump(shieldio_data, file)
-            count += 1
+        except Exception as e:
+            print(f"保存文件时出错: {e}")
+            print(f"论文 {paper_id} 的引用数为 {citations}")
+            continue
+
     
     print("已成功提取并保存所选出版物的引用数据。")
     print(f"共有 {count} 篇论文的引用数据已保存。")
