@@ -18,6 +18,16 @@ def clean_title(title):
     cleaned_title = re.sub(pattern, '', title)
     return cleaned_title
 
+def read_titles(filename):
+    # 从csv文件中读取标题，标题是第二列，从第二行开始
+    titles = []
+    with open (filename, 'r') as file:
+        lines = file.readlines()
+        for line in lines[1:]:
+            title = line.split(',')[1]
+            titles.append(title)
+    return titles
+
 def extract_titles(markdown_content):
     """
     从给定的 Markdown 内容中提取 '## 🔖 Selected Publications' 部分的出版物标题，并进行清理。
@@ -112,7 +122,10 @@ except Exception as e:
     exit(1)
 
 # 提取并清理标题
-publication_titles = extract_titles(content)
+# publication_titles = extract_titles(content)
+
+publication_titles = read_titles('./results/all_publications.csv')
+# print(test_titles)
 
 json_file = f'results/gs_data.json'
 selected_data = json.load(open(json_file, 'r'))
