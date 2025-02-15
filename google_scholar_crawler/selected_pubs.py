@@ -139,19 +139,19 @@ def find_citations_by_title(data, target_title):
     return None, None
 
 # 假设您的 Markdown 文件名为 'publications.md'
-markdown_file = '../_pages/about.md'
+# markdown_file = '../_pages/about.md'
 
-try:
-    # 读取 Markdown 文件内容
-    with open(markdown_file, 'r', encoding='utf-8') as file:
-        content = file.read()
-    print("Markdown 文件已成功读取。\n")
-except FileNotFoundError:
-    print(f"文件 '{markdown_file}' 未找到。请检查路径是否正确。")
-    exit(1)
-except Exception as e:
-    print(f"读取文件时出错: {e}")
-    exit(1)
+# try:
+#     # 读取 Markdown 文件内容
+#     with open(markdown_file, 'r', encoding='utf-8') as file:
+#         content = file.read()
+#     print("Markdown 文件已成功读取。\n")
+# except FileNotFoundError:
+#     print(f"文件 '{markdown_file}' 未找到。请检查路径是否正确。")
+#     exit(1)
+# except Exception as e:
+#     print(f"读取文件时出错: {e}")
+#     exit(1)
 
 def title_citations():
 
@@ -208,6 +208,9 @@ def title_citations():
 
 def long_id_citations():
     
+    global count
+    count = 0
+    
     # long_ids
     long_ids = read_long_ids('results/all_publications.csv')
     # print(long_ids)
@@ -220,6 +223,9 @@ def long_id_citations():
         
         if paper_id is not None:
             paper_id = paper_id.split(':')[-1]
+            
+        if paper_id == 'yD5IFk8b50cC':
+            print(f"论文 {paper_id} 的引用数为 {citations}")
         
         shieldio_data = {
             "schemaVersion": 1,
@@ -228,19 +234,23 @@ def long_id_citations():
             "message": f"{citations}",
         }
         
+        # print(f"论文 {paper_id} 的引用数为 {citations}")
+        
         # 检查是否存在selected_pubs文件夹，如果不存在则创建
         import os
         if not os.path.exists('results/selected_pubs'):
             os.makedirs('results/selected_pubs')
         
         # 检查是否存在paper_id.json文件，如果不存在则创建
-        if not os.path.exists(f'results/selected_pubs/{paper_id}.json'):
-            os.mknod(f'results/selected_pubs/{paper_id}.json')
+        # if not os.path.exists(f'results/selected_pubs/{paper_id}.json'):
+        #     os.mknod(f'results/selected_pubs/{paper_id}.json')
         
         with open(f'results/selected_pubs/{paper_id}.json', 'w') as file:
             json.dump(shieldio_data, file)
+            count += 1
     
     print("已成功提取并保存所选出版物的引用数据。")
+    print(f"共有 {count} 篇论文的引用数据已保存。")
     
     return
 
