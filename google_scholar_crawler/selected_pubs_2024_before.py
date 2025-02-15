@@ -234,7 +234,8 @@ def long_id_citations():
     'OlLjVUcAAAAJ:RYcK_YlVTxYC',
     'OlLjVUcAAAAJ:lSLTfruPkqcC',
     'OlLjVUcAAAAJ:_Qo2XoVZTnwC',
-    'OlLjVUcAAAAJ:yD5IFk8b50cC'
+    'OlLjVUcAAAAJ:yD5IFk8b50cC',
+    'OlLjVUcAAAAJ:vRqMK49ujn8C'
 ])
     
     json_file = f'results/gs_data.json'
