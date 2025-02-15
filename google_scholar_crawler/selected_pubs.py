@@ -1,5 +1,7 @@
 import re
 import json
+import os
+import random
 
 # add some new things for extracting selected publications and get the shieldio data
 
@@ -178,7 +180,6 @@ def title_citations():
         # print(f"提取并清理标题: {cleaned_title}，关键字: {keyword}")
         
         # 在results文件夹下创建selected_pubs文件夹，如果不存在
-        import os
         if not os.path.exists('results/selected_pubs'):
             os.makedirs('results/selected_pubs')
         
@@ -214,6 +215,9 @@ def long_id_citations():
     # long_ids
     long_ids = read_long_ids('results/all_publications.csv')
     # print(long_ids)
+    
+    # 随机选择100个long ids
+    long_ids = random.sample(long_ids, 80)
     
     json_file = f'results/gs_data.json'
     selected_data = json.load(open(json_file, 'r'))
@@ -257,7 +261,7 @@ def long_id_citations():
             continue
 
     
-    print("已成功提取并保存所选出版物的引用数据。")
+    # print("已成功提取并保存所选出版物的引用数据。")
     print(f"共有 {count} 篇论文的引用数据已保存。")
     
     return
