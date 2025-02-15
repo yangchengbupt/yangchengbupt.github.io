@@ -38,7 +38,7 @@ def read_long_ids_2024_before(filename):
         for line in lines[1:]:
             long_id = line.split(',')[2]
             year = line.split(',')[4]
-            if year < 2024:
+            if year < '2024':
                 long_ids.append(long_id)
     return long_ids
 
@@ -50,7 +50,7 @@ def read_long_ids_2024_and_now(filename):
         for line in lines[1:]:
             long_id = line.split(',')[2]
             year = line.split(',')[4]
-            if year >= 2024:
+            if year == '2024':
                 long_ids.append(long_id)
     return long_ids
 
