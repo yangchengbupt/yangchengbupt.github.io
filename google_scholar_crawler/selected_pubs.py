@@ -218,6 +218,9 @@ def long_id_citations():
     for long_id in long_ids:
         citations, paper_id = find_citations_by_long_id(selected_data, long_id)
         
+        if paper_id is not None:
+            paper_id = paper_id.split(':')[-1]
+        
         shieldio_data = {
             "schemaVersion": 1,
             "label": "citations",
