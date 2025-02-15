@@ -1,55 +1,34 @@
-name: Update Scholar Stats
+name: Get Citation Data
 
-on:
-  schedule:
-    - cron: "0 0 * * *"  # 每天运行 (UTC)
-  workflow_dispatch:  # 允许手动触发
+on: 
+ page_build: 
+ schedule:
+  - cron:  '0 8 * * *'
 
 jobs:
-  update-stats:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code (main branch)
-        uses: actions/checkout@v4
-        with:
-          path: main-repo  # 将代码检出到单独的目录
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.10'  # 指定 Python 版本
-
-      - name: Install dependencies
-        run: |
-          cd main-repo/google_scholar_crawler
-          pip install -r requirements.txt
-
-      - name: Run scripts
-        run: |
-          cd main-repo/google_scholar_crawler
-          python main.py
-          python pubs_pre.py
-          python selected_pubs.py
-
-      - name: Checkout results branch
-        uses: actions/checkout@v4
-        with:
-          ref: google-scholar-stats  # 你的结果分支
-          path: results-repo  # 将结果分支检出到单独的目录
-
-      - name: Copy results
-        run: |
-          mkdir -p results-repo/results/selected_pubs/
-          cp -r main-repo/google_scholar_crawler/results/selected_pubs/* results-repo/results/selected_pubs/
-          cp main-repo/google_scholar_crawler/results/*.csv results-repo/results/
-
-      - name: Commit and push (results branch)
-        run: |
-          cd results-repo
-          git config --local user.email "lixin4sky@gmail.com"  # 你的邮箱!
-          git config --local user.name "GitHub Actions"  # 或你的用户名
-          git add results/  # 添加 results 目录下的所有内容
-          git commit -m "Update publication stats [$(date +'%Y-%m-%d %H:%M:%S')]"
-          git push origin google-scholar-stats  # 推送到 results 分支 (不要 --force)
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - uses: actions/checkout@v2
+    - name: Install Reqs
+      run: |
+        sudo apt-get install python3-setuptools
+    - name: Run
+      run: |
+        cd ./google_scholar_crawler
+        pip3 install -r requirements.txt
+        python3 main.py
+        python3 pubs_pre.py
+        python3 selected_pubs.py
+        cd ./results
+        
+        git config --local user.name "${GITHUB_ACTOR}"
+        export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
+        # 修改这里，添加所有文件和文件夹
+        git add .
+        # 或者明确指定包含子文件夹
+        # git add *.json **/*.json
+        git commit -m "Updated Citation Data"
+        git push "${remote_repo}" HEAD:google-scholar-stats --force
+      env: 
+        GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
