@@ -75,7 +75,7 @@ def main():
     主函数，读取JSON文件，提取、排序、保存论文信息。
     """
     # 读取JSON文件 (替换为你的JSON文件路径)
-    with open("./results/gs_data.json", "r", encoding="utf-8") as f:
+    with open("results/gs_data.json", "r", encoding="utf-8") as f:
         data = json.load(f)
 
     # 提取论文信息
@@ -85,7 +85,7 @@ def main():
     sorted_publications = sort_publications_by_year(publications)
 
     # 保存到CSV文件 (替换为你想要保存的CSV文件路径)
-    save_publications_to_csv(sorted_publications, "./results/all_publications.csv")
+    save_publications_to_csv(sorted_publications, "results/all_publications.csv")
     print("论文信息已保存到 all_publications.csv")
 
 if __name__ == "__main__":

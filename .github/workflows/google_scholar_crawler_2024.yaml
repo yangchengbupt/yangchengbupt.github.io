@@ -19,9 +19,9 @@ jobs:
         pip3 install -r requirements.txt
         python3 main.py
         python3 pubs_pre.py
-        python3 selected_pubs.py
+        python3 selected_pubs_2024.py
         cd ./results
-        
+        git init
         git config --local user.name "${GITHUB_ACTOR}"
         export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
         # 修改这里，添加所有文件和文件夹
@@ -29,6 +29,6 @@ jobs:
         # 或者明确指定包含子文件夹
         # git add *.json **/*.json
         git commit -m "Updated Citation Data"
-        git push "${remote_repo}" HEAD:google-scholar-stats --force
+        git push "${remote_repo}" HEAD:google-scholar-stats-2024 --force
       env: 
         GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
