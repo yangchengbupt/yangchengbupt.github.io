@@ -160,10 +160,10 @@ def title_citations():
     # 提取并清理标题
     # publication_titles = extract_titles(content)
 
-    publication_titles = read_titles('results/all_publications.csv')
+    publication_titles = read_titles('./results/all_publications.csv')
     # print(test_titles)
 
-    json_file = f'results/gs_data.json'
+    json_file = f'./results/gs_data.json'
     selected_data = json.load(open(json_file, 'r'))
 
     for title in publication_titles:
@@ -180,8 +180,8 @@ def title_citations():
         # print(f"提取并清理标题: {cleaned_title}，关键字: {keyword}")
         
         # 在results文件夹下创建selected_pubs文件夹，如果不存在
-        if not os.path.exists('results/selected_pubs'):
-            os.makedirs('results/selected_pubs')
+        if not os.path.exists('./results/selected_pubs'):
+            os.makedirs('./results/selected_pubs')
         
         citations, paper_id = find_citations_by_title(selected_data, cleaned_title)
         
@@ -199,7 +199,7 @@ def title_citations():
         }
         
         # 保存为json文件
-        with open(f'results/selected_pubs/{paper_id}.json', 'w') as file:
+        with open(f'./results/selected_pubs/{paper_id}.json', 'w') as file:
             json.dump(shieldio_data, file)
         
 
@@ -213,13 +213,13 @@ def long_id_citations():
     count = 0
     
     # long_ids
-    long_ids = read_long_ids('results/all_publications.csv')
+    long_ids = read_long_ids('./results/all_publications.csv')
     # print(long_ids)
     
     # 随机选择100个long ids
     long_ids = random.sample(long_ids, 80)
     
-    json_file = f'results/gs_data.json'
+    json_file = f'./results/gs_data.json'
     selected_data = json.load(open(json_file, 'r'))
     
     for long_id in long_ids:
@@ -242,16 +242,16 @@ def long_id_citations():
         
         # 检查是否存在selected_pubs文件夹，如果不存在则创建
         import os
-        if not os.path.exists('results/selected_pubs'):
-            os.makedirs('results/selected_pubs')
+        if not os.path.exists('./results/selected_pubs'):
+            os.makedirs('./results/selected_pubs')
         
         # 检查是否存在paper_id.json文件，如果不存在则创建
-        # if not os.path.exists(f'results/selected_pubs/{paper_id}.json'):
-        #     os.mknod(f'results/selected_pubs/{paper_id}.json')
+        # if not os.path.exists(f'./results/selected_pubs/{paper_id}.json'):
+        #     os.mknod(f'./results/selected_pubs/{paper_id}.json')
     
         try:
             
-            with open(f'results/selected_pubs/{paper_id}.json', 'w') as file:
+            with open(f'./results/selected_pubs/{paper_id}.json', 'w') as file:
                 json.dump(shieldio_data, file)
                 count += 1
         
