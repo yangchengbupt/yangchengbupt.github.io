@@ -228,6 +228,15 @@ def long_id_citations():
             "message": f"{citations}",
         }
         
+        # 检查是否存在selected_pubs文件夹，如果不存在则创建
+        import os
+        if not os.path.exists('results/selected_pubs'):
+            os.makedirs('results/selected_pubs')
+        
+        # 检查是否存在paper_id.json文件，如果不存在则创建
+        if not os.path.exists(f'results/selected_pubs/{paper_id}.json'):
+            os.mknod(f'results/selected_pubs/{paper_id}.json')
+        
         with open(f'results/selected_pubs/{paper_id}.json', 'w') as file:
             json.dump(shieldio_data, file)
     
