@@ -49,6 +49,12 @@ def read_long_ids_2024(filename):
         lines = file.readlines()
         for line in lines[1:]:
             long_id = line.split(',')[2]
+            
+            # print(long_id)
+            
+            # if long_id == 'OlLjVUcAAAAJ:t6usbXjVLHcC':
+            #     import pdb; pdb.set_trace()
+            
             year = line.split(',')[4]
             if year == '2024':
                 long_ids.append(long_id)
@@ -174,10 +180,10 @@ def title_citations():
     # 提取并清理标题
     # publication_titles = extract_titles(content)
 
-    publication_titles = read_titles('results/all_publications.csv')
+    publication_titles = read_titles('./results/all_publications.csv')
     # print(test_titles)
 
-    json_file = f'results/gs_data.json'
+    json_file = f'./results/gs_data.json'
     selected_data = json.load(open(json_file, 'r'))
 
     for title in publication_titles:
@@ -194,8 +200,8 @@ def title_citations():
         # print(f"提取并清理标题: {cleaned_title}，关键字: {keyword}")
         
         # 在results文件夹下创建selected_pubs文件夹，如果不存在
-        if not os.path.exists('results/selected_pubs'):
-            os.makedirs('results/selected_pubs')
+        if not os.path.exists('./results/selected_pubs'):
+            os.makedirs('./results/selected_pubs')
         
         citations, paper_id = find_citations_by_title(selected_data, cleaned_title)
         
@@ -213,7 +219,7 @@ def title_citations():
         }
         
         # 保存为json文件
-        with open(f'results/selected_pubs/{paper_id}.json', 'w') as file:
+        with open(f'./results/selected_pubs/{paper_id}.json', 'w') as file:
             json.dump(shieldio_data, file)
         
 
@@ -227,15 +233,28 @@ def long_id_citations():
     count = 0
     
     # long_ids
-    long_ids = read_long_ids_2024('results/all_publications.csv')
-    # print(long_ids)
+    long_ids = read_long_ids_2024('./results/all_publications.csv')
+    print(long_ids)
     
-    long_ids.append('OlLjVUcAAAAJ:t6usbXjVLHcC', 'OlLjVUcAAAAJ:XiVPGOgt02cC', 'OlLjVUcAAAAJ:tS2w5q8j5-wC')
+    long_ids = ['OlLjVUcAAAAJ:JoZmwDi-zQgC', 'OlLjVUcAAAAJ:tkaPQYYpVKoC', 'OlLjVUcAAAAJ:sSrBHYA8nusC', 
+                'OlLjVUcAAAAJ:wbdj-CoPYUoC', 'OlLjVUcAAAAJ:AXPGKjj_ei8C', 'OlLjVUcAAAAJ:B3FOqHPlNUQC', 
+                'OlLjVUcAAAAJ:XiVPGOgt02cC', 'OlLjVUcAAAAJ:1qzjygNMrQYC', 'OlLjVUcAAAAJ:fQNAKQ3IYiAC', 
+                'OlLjVUcAAAAJ:eflP2zaiRacC', 'OlLjVUcAAAAJ:D_sINldO8mEC', 'OlLjVUcAAAAJ:tS2w5q8j5-wC', 
+                'OlLjVUcAAAAJ:J-pR_7NvFogC', 'OlLjVUcAAAAJ:V3AGJWp-ZtQC', 'OlLjVUcAAAAJ:VOx2b1Wkg3QC', 
+                'OlLjVUcAAAAJ:5Ul4iDaHHb8C', 'OlLjVUcAAAAJ:eMMeJKvmdy0C', 'OlLjVUcAAAAJ:Mojj43d5GZwC', 
+                'OlLjVUcAAAAJ:5ugPr518TE4C', 'OlLjVUcAAAAJ:kRWSkSYxWN8C', 'OlLjVUcAAAAJ:WbkHhVStYXYC', 
+                'OlLjVUcAAAAJ:mvPsJ3kp5DgC', 'OlLjVUcAAAAJ:bnK-pcrLprsC', 'OlLjVUcAAAAJ:olpn-zPbct0C', 
+                'OlLjVUcAAAAJ:HE397vMXCloC', 'OlLjVUcAAAAJ:q3oQSFYPqjQC', 'OlLjVUcAAAAJ:LPZeul_q3PIC', 
+                'OlLjVUcAAAAJ:4fKUyHm3Qg0C', 'OlLjVUcAAAAJ:t6usbXjVLHcC']
     
-    json_file = f'results/gs_data.json'
+    json_file = f'./results/gs_data.json'
     selected_data = json.load(open(json_file, 'r'))
     
     for long_id in long_ids:
+        
+        # OlLjVUcAAAAJ:t6usbXjVLHcC
+        if long_id == 'OlLjVUcAAAAJ:t6usbXjVLHcC':
+            import pdb; pdb.set_trace()
         
         citations, paper_id = find_citations_by_long_id(selected_data, long_id)
         
@@ -256,16 +275,16 @@ def long_id_citations():
         
         # 检查是否存在selected_pubs文件夹，如果不存在则创建
         import os
-        if not os.path.exists('results/selected_pubs'):
-            os.makedirs('results/selected_pubs')
+        if not os.path.exists('./results/selected_pubs'):
+            os.makedirs('./results/selected_pubs')
         
         # 检查是否存在paper_id.json文件，如果不存在则创建
-        # if not os.path.exists(f'results/selected_pubs/{paper_id}.json'):
-        #     os.mknod(f'results/selected_pubs/{paper_id}.json')
+        # if not os.path.exists(f'./results/selected_pubs/{paper_id}.json'):
+        #     os.mknod(f'./results/selected_pubs/{paper_id}.json')
     
         try:
             
-            with open(f'results/selected_pubs/{paper_id}.json', 'w') as file:
+            with open(f'./results/selected_pubs/{paper_id}.json', 'w') as file:
                 json.dump(shieldio_data, file)
                 count += 1
         

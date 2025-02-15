@@ -230,6 +230,9 @@ def long_id_citations():
     long_ids = read_long_ids_2024_before('results/all_publications.csv')
     # print(long_ids)
     
+    long_ids.append('OlLjVUcAAAAJ:RYcK_YlVTxYC', 'OlLjVUcAAAAJ:lSLTfruPkqcC', 'OlLjVUcAAAAJ:_Qo2XoVZTnwC',
+                    'OlLjVUcAAAAJ:yD5IFk8b50cC')
+    
     json_file = f'results/gs_data.json'
     selected_data = json.load(open(json_file, 'r'))
     
