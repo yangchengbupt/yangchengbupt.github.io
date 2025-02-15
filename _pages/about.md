@@ -45,7 +45,7 @@ Jiawei Liu\*, **Cheng Yang\***, Zhiyuan Lu, Junze Chen, Yibo Li, Mengmei Zhang, 
 <!-- [**Source Code**](https://github.com/alibaba/GraphTranslator) -->
 <!-- [![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://github.com/alibaba/GraphTranslator) -->
 <!-- <strong><span class='show_paper_citations' data='OlLjVUcAAAAJ:sSrBHYA8nusC'></span></strong> -->
-<a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:vRqMK49ujn8C'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024%2Fselected_pubs%2FvRqMK49ujn8C.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
+<a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:vRqMK49ujn8C'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FvRqMK49ujn8C.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 - <span class="conference-badge">NeurIPS 2024</span>
 [(ProGraph) Can Large Language Models Analyze Graphs like Professionals? A Benchmark, Datasets and Models](https://arxiv.org/abs/2409.19667)
