@@ -158,7 +158,7 @@ def title_citations():
     # 提取并清理标题
     # publication_titles = extract_titles(content)
 
-    publication_titles = read_titles('./results/all_publications.csv')
+    publication_titles = read_titles('results/all_publications.csv')
     # print(test_titles)
 
     json_file = f'results/gs_data.json'
@@ -209,7 +209,7 @@ def title_citations():
 def long_id_citations():
     
     # long_ids
-    long_ids = read_long_ids('./results/all_publications.csv')
+    long_ids = read_long_ids('results/all_publications.csv')
     # print(long_ids)
     
     json_file = f'results/gs_data.json'
