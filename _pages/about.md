@@ -112,6 +112,39 @@ Ganqu Cui, Jie Zhou, **Cheng Yang<sup>†</sup>**, Zhiyuan Liu<sup>†</sup>
 <!-- <strong><span class='show_paper_citations' data='OlLjVUcAAAAJ:u5HHmVD_uO8C'></span></strong> -->
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:u5HHmVD_uO8C'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2Fu5HHmVD_uO8C.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
+## ⌛️ 2025
+
+- <span class="conference-badge">ICLR 2025</span>
+[Internet of agents: Weaving a web of heterogeneous agents for collaborative intelligence](https://arxiv.org/abs/2407.07061)
+Weize Chen, Ziming You, Ran Li, Yitong Guan, Chen Qian, Chenyang Zhao, **Cheng Yang**, Ruobing Xie, Zhiyuan Liu, Maosong Sun
+[![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://github.com/OpenBMB/IoA)
+<a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:wbdj-CoPYUoC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024%2Fselected_pubs%2Fwbdj-CoPYUoC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
+
+
+
+- <span class="conference-badge">ICLR 2025</span>
+[Scaling Large-Language-Model-based Multi-Agent Collaboration](https://arxiv.org/abs/2406.07155)
+Chen Qian, Zihao Xie, Yifei Wang, Wei Liu, Yufan Dang, Zhuoyun Du, Weize Chen, **Cheng Yang**, Zhiyuan Liu, Maosong Sun
+[![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://github.com/OpenBMB/ChatDev)
+<a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:V3AGJWp-ZtQC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024%2Fselected_pubs%2FV3AGJWp-ZtQC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
+
+
+
+- <span class="conference-badge">KDD 2025</span>
+[Can Large Language Models Improve the Adversarial Robustness of Graph Neural Networks?](https://arxiv.org/abs/2408.08685)
+Zhongjian Zhang, Xiao Wang, Huichi Zhou, Yue Yu, Mengmei Zhang, **Cheng Yang**, Chuan Shi
+[![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://github.com/BUPT-GAMMA/GraphPAR)
+<a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:5ugPr518TE4C'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024%2Fselected_pubs%2F5ugPr518TE4C.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
+
+
+
+- <span class="conference-badge">NAACL 2025</span>
+[Seq1F1B: Efficient sequence-level pipeline parallelism for large language model training](https://arxiv.org/abs/2406.03488)
+Ao Sun, Weilin Zhao, Xu Han, **Cheng Yang**, Xinrong Zhang, Zhiyuan Liu, Chuan Shi, Maosong Sun
+[![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://github.com/thunlp/Seq1F1B)
+<a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:kRWSkSYxWN8C'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024%2Fselected_pubs%2FkRWSkSYxWN8C.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
+
+
 ## ⌛️ 2024
 
 - <span class="conference-badge">ACL 2024</span>
@@ -138,14 +171,6 @@ Mengmei Zhang, Mingwei Sun, Peng Wang, Shen Fan, Yanhu Mo, Xiaoxiao Xu, Hong Liu
 
 
 
-- <span class="conference-badge">ICLR 2025</span>
-[Internet of agents: Weaving a web of heterogeneous agents for collaborative intelligence](https://arxiv.org/abs/2407.07061)
-Weize Chen, Ziming You, Ran Li, Yitong Guan, Chen Qian, Chenyang Zhao, **Cheng Yang**, Ruobing Xie, Zhiyuan Liu, Maosong Sun
-[![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://github.com/OpenBMB/IoA)
-<a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:wbdj-CoPYUoC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024%2Fselected_pubs%2Fwbdj-CoPYUoC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
-
-
-
 - <span class="conference-badge">IEEE Transactions on Big Data</span>
 [Data-centric graph learning: A survey](https://arxiv.org/abs/2310.04987)
 Yuxin Guo, Deyu Bo, **Cheng Yang**, Zhiyuan Lu, Zhongjian Zhang, Jixi Liu, Yufei Peng, Chuan Shi
@@ -158,14 +183,6 @@ Yuxin Guo, Deyu Bo, **Cheng Yang**, Zhiyuan Lu, Zhongjian Zhang, Jixi Liu, Yufei
 Tianrui Jia, Haoyang Li, **Cheng Yang**, Tao Tao, Chuan Shi
 [![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://github.com/BUPT-GAMMA/IGM)
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:B3FOqHPlNUQC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024%2Fselected_pubs%2FB3FOqHPlNUQC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
-
-
-
-- <span class="conference-badge">arXiv preprint</span>
-[ChatMol: interactive molecular discovery with natural language](https://arxiv.org/abs/2306.11976)
-Zheni Zeng, Bangchen Yin, Shipeng Wang, Jiarui Liu, **Cheng Yang**, Haishen Yao, Xingzhi Sun, Maosong Sun, Guotong Xie, Zhiyuan Liu
-[![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://github.com/Ellenzzn/ChatMol)
-<a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:XiVPGOgt02cC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024%2Fselected_pubs%2FXiVPGOgt02cC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
@@ -200,26 +217,11 @@ Weize Chen, Chenfei Yuan, Jiarui Yuan, Yusheng Su, Chen Qian, **Cheng Yang**, Ru
 
 
 
-- <span class="conference-badge">NIPS 2023</span>
-[Injecting multimodal information into rigid protein docking via bi-level optimization](https://openreview.net/pdf?id=ZuaVKlWdD2)
-Ruijia Wang, YiWu Sun, Yujie Luo, Shaochuan Li, **Cheng Yang**, Xingyi Cheng, Hui Li, Chuan Shi, Le Song
-<a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:tS2w5q8j5-wC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024%2Fselected_pubs%2FtS2w5q8j5-wC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
-
-
-
 - <span class="conference-badge">arXiv preprint</span>
 [Autonomous agents for collaborative task under information asymmetry](https://arxiv.org/abs/2406.14928)
 Wei Liu, Chenxi Wang, Yifei Wang, Zihao Xie, Rennai Qiu, Yufan Dang, Zhuoyun Du, Weize Chen, **Cheng Yang**, Chen Qian
 [![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://thinkwee.top/iagents/)
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:J-pR_7NvFogC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024%2Fselected_pubs%2FJ-pR_7NvFogC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
-
-
-
-- <span class="conference-badge">ICLR 2025</span>
-[Scaling Large-Language-Model-based Multi-Agent Collaboration](https://arxiv.org/abs/2406.07155)
-Chen Qian, Zihao Xie, Yifei Wang, Wei Liu, Yufan Dang, Zhuoyun Du, Weize Chen, **Cheng Yang**, Zhiyuan Liu, Maosong Sun
-[![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://github.com/OpenBMB/ChatDev)
-<a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:V3AGJWp-ZtQC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024%2Fselected_pubs%2FV3AGJWp-ZtQC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
@@ -247,86 +249,80 @@ Weize Chen, Jiarui Yuan, Chen Qian, **Cheng Yang**, Zhiyuan Liu, Maosong Sun
 
 
 
-- <span class="conference-badge">KDD 2025</span>
-[Can Large Language Models Improve the Adversarial Robustness of Graph Neural Networks?](https://arxiv.org/abs/2408.08685)
-Zhongjian Zhang, Xiao Wang, Huichi Zhou, Yue Yu, Mengmei Zhang, **Cheng Yang**, Chuan Shi
-[![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://github.com/BUPT-GAMMA/GraphPAR)
-<a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:5ugPr518TE4C'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024%2Fselected_pubs%2F5ugPr518TE4C.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
-
-
-
-- <span class="conference-badge">NAACL 2025</span>
-[Seq1F1B: Efficient sequence-level pipeline parallelism for large language model training](https://arxiv.org/abs/2406.03488)
-Ao Sun, Weilin Zhao, Xu Han, **Cheng Yang**, Xinrong Zhang, Zhiyuan Liu, Chuan Shi, Maosong Sun
-[![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://github.com/thunlp/Seq1F1B)
-<a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:kRWSkSYxWN8C'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024%2Fselected_pubs%2FkRWSkSYxWN8C.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
-
-
-
 - <span class="conference-badge">WWW 2024</span>
 [Group-to-group recommendation with neural graph matching](https://link.springer.com/article/10.1007/s11280-024-01250-x)
-Chunchen Wang, Wei Wang, Cheng Yang, Chuan Shi, Ruobing Xie, Yuanfu Lu, Haili Yang, Xu Zhang
+Chunchen Wang, Wei Wang, **Cheng Yang**, Chuan Shi, Ruobing Xie, Yuanfu Lu, Haili Yang, Xu Zhang
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:WbkHhVStYXYC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024%2Fselected_pubs%2FWbkHhVStYXYC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Heterogeneous graph transformer with poly-tokenization]()
-
-
-
+- <span class="conference-badge">IJCAI 2024</span>
+[Heterogeneous graph transformer with poly-tokenization](https://ink.library.smu.edu.sg/sis_research/9678/)
+Zhiyuan Lu, Yuan Fang, **Cheng Yang**, Chuan Shi
+[![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://github.com/BUPT-GAMMA/PHGT)
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:mvPsJ3kp5DgC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024%2Fselected_pubs%2FmvPsJ3kp5DgC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Efficient Multi-task Prompt Tuning for Recommendation](https://arxiv.org/abs/2408.17214v1)
+- <span class="conference-badge">arXiv preprint</span>
+[Efficient Multi-task Prompt Tuning for Recommendation](https://arxiv.org/abs/2408.17214v1)
 Ting Bai, Le Huang, Yue Yu, **Cheng Yang**, Cheng Hou, Zhe Zhao, Chuan Shi
-
-
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:bnK-pcrLprsC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024%2Fselected_pubs%2FbnK-pcrLprsC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Advancing Molecule Invariant Representation via Privileged Substructure Identification]()
-
-
-
+- <span class="conference-badge">KDD 2024</span>
+[Advancing Molecule Invariant Representation via Privileged Substructure Identification](https://dl.acm.org/doi/abs/10.1145/3637528.3671886)
+Ruijia Wang, Haoran Dai, **Cheng Yang**, Le Song, Chuan Shi
+[![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://github.com/BUPT-GAMMA/Advancing-Molecule-Invariant-Representation-via-Privileged-Substructure-Identification)
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:olpn-zPbct0C'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024%2Fselected_pubs%2Folpn-zPbct0C.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Adaptively Denoising Graph Neural Networks for Knowledge Distillation]()
-
-
-
+- <span class="conference-badge">ECML-PKDD 2024</span>[Adaptively Denoising Graph Neural Networks for Knowledge Distillation](https://dl.acm.org/doi/abs/10.1007/978-3-031-70371-3_15)
+Yuxin Guo, **Cheng Yang**, Chuan Shi, Ke Tu, Zhengwei Wu, Zhiqiang Zhang, Jun Zhou
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:HE397vMXCloC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024%2Fselected_pubs%2FHE397vMXCloC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Lecture-style Tutorial: Towards Graph Foundation Models]()
-
-
-
+- <span class="conference-badge">WWW 2024</span>
+[Lecture-style Tutorial: Towards Graph Foundation Models](https://smufang.github.io/paper/TheWebConf24_Tutorial_GFM.pdf)
+Chuan Shi, **Cheng Yang**, Yuan Fang, Lichao Sun, Philip S Yu
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:q3oQSFYPqjQC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024%2Fselected_pubs%2Fq3oQSFYPqjQC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Calibrating Graph Neural Networks from a Data-centric Perspective]()
-
-
-
+- <span class="conference-badge">WWW 2024</span>
+[Calibrating Graph Neural Networks from a Data-centric Perspective](https://dl.acm.org/doi/abs/10.1145/3589334.3645562)
+**Cheng Yang**, Chengdong Yang, Chuan Shi, Yawen Li, Zhiqiang Zhang, Jun Zhou
+[![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://github.com/BUPT-GAMMA/DCGC)
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:LPZeul_q3PIC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024%2Fselected_pubs%2FLPZeul_q3PIC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Adaptive negative representations for graph contrastive learning]()
-
-
-
+- <span class="conference-badge">AI Open 2024</span>
+[Adaptive negative representations for graph contrastive learning](https://www.sciencedirect.com/science/article/pii/S2666651023000219)
+Qi Zhang, **Cheng Yang**, Chuan Shi
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:4fKUyHm3Qg0C'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024%2Fselected_pubs%2F4fKUyHm3Qg0C.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
 ## ⌛️ 2023
+
+- <span class="conference-badge">NIPS 2023</span>
+[Injecting multimodal information into rigid protein docking via bi-level optimization](https://openreview.net/pdf?id=ZuaVKlWdD2)
+Ruijia Wang, YiWu Sun, Yujie Luo, Shaochuan Li, **Cheng Yang**, Xingyi Cheng, Hui Li, Chuan Shi, Le Song
+<a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:tS2w5q8j5-wC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024%2Fselected_pubs%2FtS2w5q8j5-wC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
+
+
+
+- <span class="conference-badge">arXiv preprint</span>
+[ChatMol: interactive molecular discovery with natural language](https://arxiv.org/abs/2306.11976)
+Zheni Zeng, Bangchen Yin, Shipeng Wang, Jiarui Liu, **Cheng Yang**, Haishen Yao, Xingzhi Sun, Maosong Sun, Guotong Xie, Zhiyuan Liu
+[![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://github.com/Ellenzzn/ChatMol)
+<a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:XiVPGOgt02cC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024%2Fselected_pubs%2FXiVPGOgt02cC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
+
+
 
 - <span class="conference-badge">Conference Name</span>[Agentverse: Facilitating multi-agent collaboration and exploring emergent behaviors](https://arxiv.org/abs/2308.10848v3)
 Weize Chen, Yusheng Su, Jingwei Zuo, **Cheng Yang**, Chenfei Yuan, Chi-Min Chan, Heyang Yu, Yaxi Lu, Yi-Hsin Hung, Chen Qian, Yujia Qin, Xin Cong, Ruobing Xie, Zhiyuan Liu, Maosong Sun, Jie Zhou
