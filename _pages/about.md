@@ -324,42 +324,40 @@ Zheni Zeng, Bangchen Yin, Shipeng Wang, Jiarui Liu, **Cheng Yang**, Haishen Yao,
 
 
 
-- <span class="conference-badge">Conference Name</span>[Agentverse: Facilitating multi-agent collaboration and exploring emergent behaviors](https://arxiv.org/abs/2308.10848v3)
+- <span class="conference-badge">ICLR 2024</span>
+[Agentverse: Facilitating multi-agent collaboration and exploring emergent behaviors](https://arxiv.org/abs/2308.10848)
 Weize Chen, Yusheng Su, Jingwei Zuo, **Cheng Yang**, Chenfei Yuan, Chi-Min Chan, Heyang Yu, Yaxi Lu, Yi-Hsin Hung, Chen Qian, Yujia Qin, Xin Cong, Ruobing Xie, Zhiyuan Liu, Maosong Sun, Jie Zhou
-
-
+[![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://github.com/OpenBMB/AgentVerse)
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:8AbLer7MMksC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2F8AbLer7MMksC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Towards graph foundation models: A survey and beyond](https://arxiv.org/abs/2310.11829v3)
+- <span class="conference-badge">arXiv preprint</span>
+[Towards graph foundation models: A survey and beyond](https://arxiv.org/abs/2310.11829)
 Jiawei Liu, **Cheng Yang**, Zhiyuan Lu, Junze Chen, Yibo Li, Mengmei Zhang, Ting Bai, Yuan Fang, Lichao Sun, Philip S. Yu, Chuan Shi
-
-
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:vRqMK49ujn8C'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FvRqMK49ujn8C.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Ma-gcl: Model augmentation tricks for graph contrastive learning]()
-
-
-
+- <span class="conference-badge">AAAI 2023</span>
+[Ma-gcl: Model augmentation tricks for graph contrastive learning](https://ojs.aaai.org/index.php/AAAI/article/view/25547)
+Xumeng Gong, Cheng Yang, Chuan Shi
+[![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://github.com/GXM1141/MA-GCL)
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:g5m5HwL7SMYC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2Fg5m5HwL7SMYC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Knowledge-adaptive contrastive learning for recommendation]()
-
-
-
+- <span class="conference-badge">WSDM 2023</span>
+[Knowledge-adaptive contrastive learning for recommendation](https://dl.acm.org/doi/abs/10.1145/3539597.3570483)
+Hao Wang, Yao Xu, Cheng Yang, Chuan Shi, Xin Li, Ning Guo, Zhiyuan Liu
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:fPk4N6BV_jEC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FfPk4N6BV_jEC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Experiential co-learning of software-developing agents](https://arxiv.org/abs/2312.17025v3)
+- <span class="conference-badge">ACL 2024</span>
+[Experiential co-learning of software-developing agents](https://arxiv.org/abs/2312.17025)
 Chen Qian, Yufan Dang, Jiahao Li, Wei Liu, Zihao Xie, Yifei Wang, Weize Chen, **Cheng Yang**, Xin Cong, Xiaoyin Che, Zhiyuan Liu, Maosong Sun
-
-
+[![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://github.com/OpenBMB/ChatDev)
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:eJXPG6dFmWUC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FeJXPG6dFmWUC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
