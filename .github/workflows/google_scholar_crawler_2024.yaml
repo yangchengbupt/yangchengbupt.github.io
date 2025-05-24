@@ -1,4 +1,4 @@
-name: Get Citation Data
+name: Get Citation Data 2024
 
 on: 
  page_build: 
@@ -18,7 +18,8 @@ jobs:
         cd ./google_scholar_crawler
         pip3 install -r requirements.txt
         python3 main.py
-        python3 selected_pubs.py
+        python3 pubs_pre.py
+        python3 selected_pubs_2024.py
         cd ./results
         git init
         git config --local user.name "${GITHUB_ACTOR}"
@@ -28,6 +29,6 @@ jobs:
         # 或者明确指定包含子文件夹
         # git add *.json **/*.json
         git commit -m "Updated Citation Data"
-        git push "${remote_repo}" HEAD:google-scholar-stats --force
+        git push "${remote_repo}" HEAD:google-scholar-stats-2024 --force
       env: 
         GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
