@@ -295,6 +295,9 @@ def long_id_citations():
 
     
     # print("已成功提取并保存所选出版物的引用数据。")
+    
+    # test
+    
     print(f"共有 {count} 篇论文的引用数据已保存。")
     
     return
