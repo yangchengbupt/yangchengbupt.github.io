@@ -1,4 +1,4 @@
-name: Get Citation Data 2024
+name: Get Citation Data 2017
 
 on:
   schedule:
@@ -13,7 +13,7 @@ jobs:
       - name: Install Reqs
         run: |
           sudo apt-get install -y python3-setuptools
-      - name: Run 2024
+      - name: Run 2017
         env:
           GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
         run: |
@@ -21,12 +21,12 @@ jobs:
           pip3 install -r requirements.txt
           python3 main.py
           python3 pubs_pre.py
-          python3 selected_pubs_2024.py
+          python3 selected_pubs_2017.py
           cd ./results
           git init
           git config --local user.name "${GITHUB_ACTOR}"
           export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
           git add .
-          git commit -m "Updated Citation Data (2024)"
-          git push "${remote_repo}" HEAD:google-scholar-stats-2024 --force
+          git commit -m "Updated Citation Data (2017)"
+          git push "${remote_repo}" HEAD:google-scholar-stats-2017 --force
 
