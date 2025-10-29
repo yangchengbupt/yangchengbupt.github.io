@@ -19,9 +19,9 @@ jobs:
         run: |
           cd ./google_scholar_crawler
           pip3 install -r requirements.txt
-          python3 pubs_pre_by_year.py --year 2020 --out ../results/all_publications_2020.csv
+          python3 main_by_year.py --year 2020
+          python3 pubs_pre_by_year.py --year 2020 --src ../results/gs_data_2020.json --out ../results/all_publications_2020.csv
           python3 selected_pubs_by_year.py --year 2020 --csv ../results/all_publications_2020.csv
-          python3 selected_pubs_2020.py
           cd ./results
           git init
           git config --local user.name "${GITHUB_ACTOR}"

@@ -63,10 +63,16 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--year", required=True)
     parser.add_argument("--out", default=None, help="Output CSV path; default results/all_publications_<year>.csv")
+    parser.add_argument("--src", default=None, help="Source gs_data json; default results/gs_data.json or results/gs_data_<year>.json if exists")
     args = parser.parse_args()
 
     results_dir = Path("results")
-    gs_path = results_dir / "gs_data.json"
+    if args.src:
+        gs_path = Path(args.src)
+    else:
+        # Prefer year-specific json if available
+        yjson = results_dir / f"gs_data_{args.year}.json"
+        gs_path = yjson if yjson.exists() else (results_dir / "gs_data.json")
     if not gs_path.exists():
         raise FileNotFoundError(f"{gs_path} not found. Run main.py first to refresh gs_data.json")
 
@@ -79,4 +85,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
