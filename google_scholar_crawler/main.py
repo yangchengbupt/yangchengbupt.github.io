@@ -24,7 +24,30 @@ def fetch_author(author_id: str, max_retries: int = 5, base_delay: float = 2.0) 
     for attempt in range(1, max_retries + 1):
         try:
             author: dict = scholarly.search_author_id(author_id)
-            scholarly.fill(author, sections=['basics', 'indices', 'counts', 'publications'])
+            # 先填充基础信息
+            scholarly.fill(author, sections=['basics', 'indices', 'counts'])
+
+            # 然后以迭代方式抓取论文列表：每抓 5 篇等待 3 秒
+            pubs = []
+            used_iter = False
+            try:
+                pub_iter = scholarly.search_author_pubs(author_id)
+                used_iter = True
+                for i, pub in enumerate(pub_iter, start=1):
+                    pubs.append(pub)
+                    if i % 5 == 0:
+                        time.sleep(3)
+            except Exception:
+                # 回退到一次性填充（不可控节流，但保证兼容）
+                scholarly.fill(author, sections=['publications'])
+                # 仍然在遍历时施加轻微暂停（尽管对网络请求帮助有限）
+                for i, pub in enumerate(author.get('publications', []), start=1):
+                    pubs.append(pub)
+                    if i % 5 == 0:
+                        time.sleep(3)
+
+            if used_iter:
+                author['publications'] = pubs
             # Basic sanity checks
             if not author or 'name' not in author or 'publications' not in author:
                 raise RuntimeError("Unexpected response while fetching author data")
