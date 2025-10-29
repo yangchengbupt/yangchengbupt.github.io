@@ -24,7 +24,8 @@ jobs:
           python3 selected_pubs_by_year.py --year 2024 --csv ../results/all_publications_2024.csv
           cd ./results
           git init
-          git config --local user.name "${GITHUB_ACTOR}"
+          git config --local user.name "${{ github.repository_owner }}"
+          git config --local user.email "${{ github.repository_owner }}@users.noreply.github.com"
           export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
           git add .
           git commit -m "Updated Citation Data (2024)"

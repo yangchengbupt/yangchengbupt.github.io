@@ -21,9 +21,9 @@ jobs:
           python3 main.py
           cd ./results
           git init
-          git config --local user.name "${GITHUB_ACTOR}"
+          git config --local user.name "${{ github.repository_owner }}"
+          git config --local user.email "${{ github.repository_owner }}@users.noreply.github.com"
           export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
           git add gs_data.json gs_data_shieldsio.json || true
           git commit -m "Updated base Google Scholar data"
           git push "${remote_repo}" HEAD:google-scholar-stats-base --force
-
