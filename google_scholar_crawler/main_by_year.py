@@ -1,9 +1,11 @@
 from scholarly import scholarly, ProxyGenerator
+import jsonpickle
 import json
+from datetime import datetime
 import os
 import time
 import random
-from datetime import datetime
+import shutil
 from pathlib import Path
 import argparse
 
@@ -11,6 +13,7 @@ import argparse
 def init_proxy():
     pg = ProxyGenerator()
     try:
+        # Free proxies are unreliable but better than hitting rate limits immediately
         if not pg.FreeProxies():
             print("[warn] No free proxies acquired; proceeding without proxies.")
         scholarly.use_proxy(pg)
@@ -18,80 +21,19 @@ def init_proxy():
         print(f"[warn] Failed to initialize proxies: {e}")
 
 
-def fetch_year(author_id: str, year: int, max_retries: int = 5, base_delay: float = 2.0):
-    """Fetch publications for a specific year. Throttle every 5 items by 3s."""
+def fetch_author(author_id: str, max_retries: int = 5, base_delay: float = 2.0) -> dict | None:
+    """Fetch full author (including publications) like legacy main, with retries."""
     init_proxy()
     for attempt in range(1, max_retries + 1):
         try:
-            # Fetch minimal author info
-            author = scholarly.search_author_id(author_id)
-            scholarly.fill(author, sections=["basics", "indices", "counts"])  # light fill
-
-            pubs_for_year = []
-            got_target = False
-            passed_target = False
-
-            # Iterate publications, typically ordered by year desc
-            idx = 0
-            try:
-                pub_iter = scholarly.search_author_pubs(author_id)
-                for pub in pub_iter:
-                    idx += 1
-                    try:
-                        scholarly.fill(pub)  # need bib.pub_year
-                    except Exception as fe:
-                        print(f"[warn] fill pub failed: {fe}")
-                        continue
-
-                    bib = pub.get("bib", {})
-                    py = str(bib.get("pub_year") or "")
-                    if py.isdigit():
-                        pyi = int(py)
-                    else:
-                        pyi = -1
-
-                    if pyi == year:
-                        pubs_for_year.append(pub)
-                        got_target = True
-                    elif pyi != -1 and pyi < year and got_target:
-                        # Already went past target year in a desc list; we can stop early
-                        passed_target = True
-                        break
-
-                    if idx % 5 == 0:
-                        time.sleep(3)
-            except Exception:
-                # Fallback: bulk fill publications and filter
-                scholarly.fill(author, sections=["publications"])  # heavier
-                pubs = author.get("publications", [])
-                for i, p in enumerate(pubs, start=1):
-                    try:
-                        scholarly.fill(p)
-                    except Exception:
-                        continue
-                    bib = p.get("bib", {})
-                    py = str(bib.get("pub_year") or "")
-                    if py == str(year):
-                        pubs_for_year.append(p)
-                    if i % 5 == 0:
-                        time.sleep(3)
-
-            # Construct minimal author dict carrying only target-year publications
-            result = {
-                "container_type": "Author",
-                "filled": ["basics", "publications", "indices", "counts"],
-                "scholar_id": author_id,
-                "name": author.get("name"),
-                "affiliation": author.get("affiliation"),
-                "interests": author.get("interests"),
-                "citedby": author.get("citedby"),
-                "updated": str(datetime.now()),
-                "publications": {v["author_pub_id"]: v for v in pubs_for_year},
-            }
-            return result
+            author: dict = scholarly.search_author_id(author_id)
+            scholarly.fill(author, sections=['basics', 'indices', 'counts', 'publications'])
+            if not author or 'name' not in author or 'publications' not in author:
+                raise RuntimeError("Unexpected response while fetching author data")
+            return author
         except Exception as e:
             wait = base_delay * (2 ** (attempt - 1)) + random.uniform(0, 1.0)
-            print(f"[warn] Attempt {attempt}/{max_retries} failed: {e}. Retrying in {wait:.1f}s…")
+            print(f"[warn] Attempt {attempt}/{max_retries} failed: {e}. Retrying in {wait:.1f}s...")
             time.sleep(wait)
             init_proxy()
     return None
@@ -99,28 +41,78 @@ def fetch_year(author_id: str, year: int, max_retries: int = 5, base_delay: floa
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--year", type=int, required=True)
+    parser.add_argument('--year', type=int, required=True)
     args = parser.parse_args()
 
-    author_id = os.environ.get("GOOGLE_SCHOLAR_ID")
+    author_id = os.environ.get('GOOGLE_SCHOLAR_ID')
     if not author_id:
-        print("[error] Missing env GOOGLE_SCHOLAR_ID; skip crawling.")
+        print('[error] Missing env GOOGLE_SCHOLAR_ID; skip crawling to avoid failure.')
         return 0
 
-    data = fetch_year(author_id, args.year)
-    if data is None:
-        print("[warn] Failed to fetch year data; exiting 0 to avoid pipeline break.")
-        return 0
+    author = fetch_author(author_id)
 
-    results_dir = Path(__file__).resolve().parents[1] / "results"
+    # On failure, keep previous data if available to avoid breaking the workflow
+    year = args.year
+    results_dir = Path(__file__).resolve().parents[1] / 'results'
     results_dir.mkdir(parents=True, exist_ok=True)
-    out_json = results_dir / f"gs_data_{args.year}.json"
-    with open(out_json, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False)
-    print(f"Saved year data to {out_json}")
+    year_json = results_dir / f'gs_data_{year}.json'
+
+    if author is None:
+        print('[warn] Failed to fetch from Google Scholar (likely blocked or CAPTCHA).')
+        # If year-specific exists, keep it
+        if year_json.exists():
+            print(f'[info] Found existing {year_json}; keeping it.')
+            return 0
+        # Else fallback to generic results/gs_data.json if present
+        generic = results_dir / 'gs_data.json'
+        if generic.exists():
+            try:
+                shutil.copyfile(generic, year_json)
+                print(f'[info] Copied {generic} to {year_json} for downstream steps.')
+            except Exception as e:
+                print(f"[warn] Failed to copy fallback data: {e}")
+            return 0
+        # Minimal stub
+        minimal = {"name": "unknown", "citedby": 0, "updated": str(datetime.now()), "publications": {}}
+        with open(year_json, 'w', encoding='utf-8') as f:
+            json.dump(minimal, f, ensure_ascii=False)
+        print(f'[info] Wrote minimal stub {year_json}.')
+        return 0
+
+    # Fill each publication individually with a delay, and keep only target year
+    per_pub_delay = float(os.environ.get('PER_PUB_DELAY', '1'))
+    pubs = author.get('publications', [])
+    pubs_filtered = []
+    for idx, pub in enumerate(pubs, start=1):
+        try:
+            scholarly.fill(pub)
+            bib = pub.get('bib', {})
+            py = str(bib.get('pub_year') or '')
+            if py == str(year):
+                pubs_filtered.append(pub)
+        except Exception as e:
+            print(f"[warn] Failed to fill publication #{idx}: {e}")
+        time.sleep(per_pub_delay)
+
+    # Normalize and persist (year-specific)
+    data = {
+        'container_type': 'Author',
+        'filled': ['basics', 'publications', 'indices', 'counts'],
+        'scholar_id': author_id,
+        'name': author.get('name'),
+        'affiliation': author.get('affiliation'),
+        'interests': author.get('interests'),
+        'citedby': author.get('citedby', 0),
+        'updated': str(datetime.now()),
+        'publications': {v['author_pub_id']: v for v in pubs_filtered},
+    }
+
+    print(json.dumps(data, indent=2))
+
+    with open(year_json, 'w', encoding='utf-8') as outfile:
+        json.dump(data, outfile, ensure_ascii=False)
     return 0
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     raise SystemExit(main())
-
