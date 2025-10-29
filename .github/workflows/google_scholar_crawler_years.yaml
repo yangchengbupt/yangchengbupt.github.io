@@ -1,0 +1,49 @@
+name: Get Citation Data By Years
+
+on:
+  schedule:
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install Reqs
+        run: |
+          sudo apt-get install -y python3-setuptools
+      - name: Crawl and Generate Per-Year Selected Pubs
+        env:
+          GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+        run: |
+          set -e
+          cd ./google_scholar_crawler
+          pip3 install -r requirements.txt
+          python3 main.py
+          python3 pubs_pre.py
+
+          # collect unique years from results
+          YEARS=$(tail -n +2 ../results/all_publications.csv | cut -d, -f5 | sort -u)
+          echo "Years: $YEARS"
+
+          for y in $YEARS; do
+            if [ -f "selected_pubs_${y}.py" ]; then
+              python3 "selected_pubs_${y}.py"
+            else
+              python3 selected_pubs_by_year.py --year "$y"
+            fi
+          done
+
+          # push once per target year to dedicated branches
+          for y in $YEARS; do
+            cd ../results
+            git init
+            git config --local user.name "${GITHUB_ACTOR}"
+            export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
+            git add .
+            git commit -m "Updated Citation Data ($y)"
+            git push "${remote_repo}" HEAD:google-scholar-stats-"$y" --force
+            cd -
+          done
+
