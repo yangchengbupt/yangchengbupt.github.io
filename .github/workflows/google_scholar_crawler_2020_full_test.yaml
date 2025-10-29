@@ -23,7 +23,7 @@ jobs:
           # Preprocess and generate only for 2020 from full data
           python3 pubs_pre_by_year.py --year 2020 --out ../results/all_publications_2020.csv
           python3 selected_pubs_by_year.py --year 2020 --csv ../results/all_publications_2020.csv
-          cd ./results
+          cd ../results
           git init
           git config --local user.name "${{ github.repository_owner }}"
           git config --local user.email "${{ github.repository_owner }}@users.noreply.github.com"

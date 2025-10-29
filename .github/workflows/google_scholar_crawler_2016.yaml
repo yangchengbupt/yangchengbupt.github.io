@@ -22,7 +22,7 @@ jobs:
           python3 main_by_year.py --year 2016
           python3 pubs_pre_by_year.py --year 2016 --src ../results/gs_data_2016.json --out ../results/all_publications_2016.csv
           python3 selected_pubs_by_year.py --year 2016 --csv ../results/all_publications_2016.csv
-          cd ./results
+          cd ../results
           git init
           git config --local user.name "${{ github.repository_owner }}"
           git config --local user.email "${{ github.repository_owner }}@users.noreply.github.com"
