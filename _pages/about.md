@@ -584,170 +584,149 @@ Huimin Chen, **Cheng Yang**, Xuanming Zhang, Zhiyuan Liu, Maosong Sun, Jianbin J
 
 
 
-- <span class="conference-badge">Conference Name</span>[Text-graph enhanced knowledge graph representation learning]()
-
-
-
+- <span class="conference-badge">FCS 2021</span>
+[Text-graph enhanced knowledge graph representation learning](https://dl.acm.org/doi/10.5555/3060621.3060801)
+Linmei Hu, Mengmei Zhang, Shaohua Li, Jinghan Shi, Chuan Shi, Cheng Yang and Zhiyuan Liu
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:bEWYMUwI8FkC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FbEWYMUwI8FkC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Neural information diffusion prediction with topic-aware attention network]()
-
-
-
+- <span class="conference-badge">CIKM 2021</span>
+[Neural information diffusion prediction with topic-aware attention network](https://dl.acm.org/doi/10.1145/3459637.3482374)
+Hao Wang, Cheng Yang, Chuan Shi
+[![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://github.com/BUPT-GAMMA/TAN)
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:k_IJM867U9cC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2Fk_IJM867U9cC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Package recommendation with intra-and inter-package attention networks]()
-
-
-
+- <span class="conference-badge">SIGIR 2021</span>
+[Package recommendation with intra-and inter-package attention networks](https://dl.acm.org/doi/10.1145/3404835.3462841)
+Chen Li, Yuanfu Lu, Wei Wang, Chuan Shi, Ruobing Xie, Haili Yang, Cheng Yang, Xu Zhang, Leyu Lin
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:4JMBOYKVnBMC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2F4JMBOYKVnBMC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Treasures outside contexts: Improving event detection via global statistics]()
-
-
-
+- <span class="conference-badge">EMNLP 2021</span>
+[Treasures outside contexts: Improving event detection via global statistics](https://aclanthology.org/2021.emnlp-main.206/)
+Rui Li, Wenlin Zhao, Cheng Yang, Sen Su
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:M3NEmzRMIkIC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FM3NEmzRMIkIC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[基于异质信息网络的推荐系统研究综述]()
-
-
-
+- <span class="conference-badge">信息安全学报</span>[基于异质信息网络的推荐系统研究综述](https://jcs.iie.ac.cn/ch/reader/view_abstract.aspx?file_no=20210501&flag=1)
+刘佳玮 , 石川, 杨成, 菲利普·俞
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:hMod-77fHWUC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FhMod-77fHWUC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Evaluating modules in graph contrastive learning](https://arxiv.org/abs/2106.08171v2)
+- <span class="conference-badge">arxiv preprint</span>
+[Evaluating modules in graph contrastive learning](https://arxiv.org/abs/2106.08171v2)
 Ganqu Cui, Yufeng Du, **Cheng Yang**, Jie Zhou, Liang Xu, Xing Zhou, Xingyi Cheng, Zhiyuan Liu
-
-
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:j3f4tGmQtD8C'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2Fj3f4tGmQtD8C.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Semantic-specific hierarchical alignment network for heterogeneous graph adaptation]()
-
-
-
+- <span class="conference-badge">ECML 2021</span>[Semantic-specific hierarchical alignment network for heterogeneous graph adaptation](https://dl.acm.org/doi/abs/10.1007/978-3-030-86520-7_21)
+Yuanxin Zhuang, Chuan Shi, Cheng Yang, Fuzhen Zhuang, and Yangqiu Song
+[![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://github.com/BUPT-GAMMA/HGA)
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:iH-uZ7U-co4C'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FiH-uZ7U-co4C.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Tree-Capsule: Tree-Structured Capsule Network for Improving Relation Extraction]()
-
-
-
+- <span class="conference-badge">PAKDD 2021</span>
+[Tree-Capsule: Tree-Structured Capsule Network for Improving Relation Extraction](https://dl.acm.org/doi/10.1007/978-3-030-75768-7_26)
+Tianchi Yang, Linmei Hu, Luhao Zhang, Chuan Shi, Cheng Yang, Nan Duan, Ming Zhou
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:O3NaXMp0MMsC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FO3NaXMp0MMsC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[The Basics of Network Embedding]()
-
-
-
+- <span class="conference-badge">CIKM 2021</span>
+[The Basics of Network Embedding](https://dl.acm.org/doi/10.1145/3340531.3412041)
+Yaojing Wang, Guosheng Pan, Yuan Yao, Hanghang Tong, Hongxia Yang, Feng Xu, Jian Lu
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:CHSYGLWDkRkC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FCHSYGLWDkRkC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Network embedding for community-structured graphs]()
-
-
-
+- <span class="conference-badge">Springer</span>
+[Network embedding for community-structured graphs](https://link.springer.com/chapter/10.1007/978-3-031-01590-8_7)
+Cheng Yang, Chuan Shi, Zhiyuan Liu, Cunchao Tu & Maosong Sun
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:EUQCXRtRnyEC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FEUQCXRtRnyEC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Network Embedding for Graphs with Node Contents]()
-
-
-
+- <span class="conference-badge">Springer</span>
+[Network Embedding for Graphs with Node Contents](https://link.springer.com/chapter/10.1007/978-3-031-01590-8_5)
+Cheng Yang, Chuan Shi, Zhiyuan Liu, Cunchao Tu & Maosong Sun
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:uWQEDVKXjbEC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FuWQEDVKXjbEC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Network Embedding for Large-Scale Graphs]()
-
-
-
+- <span class="conference-badge">Springer</span>
+[Network Embedding for Large-Scale Graphs](https://link.springer.com/chapter/10.1007/978-3-031-01590-8_8)
+Cheng Yang, Chuan Shi, Zhiyuan Liu, Cunchao Tu & Maosong Sun
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:UxriW0iASnsC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FUxriW0iASnsC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Network Embedding for Information Diffusion Prediction]()
-
-
-
+- <span class="conference-badge">Springer</span>
+[Network Embedding for Information Diffusion Prediction](https://link.springer.com/chapter/10.1007/978-3-031-01590-8_12)
+Cheng Yang, Chuan Shi, Zhiyuan Liu, Cunchao Tu & Maosong Sun
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:dshw04ExmUIC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2Fdshw04ExmUIC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Network Embedding for Heterogeneous Graphs]()
-
-
-
+- <span class="conference-badge">Springer</span>
+[Network Embedding for Heterogeneous Graphs](https://link.springer.com/chapter/10.1007/978-3-031-01590-8_9)
+Cheng Yang, Chuan Shi, Zhiyuan Liu, Cunchao Tu & Maosong Sun
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:KxtntwgDAa4C'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FKxtntwgDAa4C.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Network Embedding for Social Relation Extraction]()
-
-
-
+- <span class="conference-badge">Springer</span>
+[Network Embedding for Social Relation Extraction](https://link.springer.com/chapter/10.1007/978-3-031-01590-8_10)
+Cheng Yang, Chuan Shi, Zhiyuan Liu, Cunchao Tu & Maosong Sun
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:nb7KW1ujOQ8C'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2Fnb7KW1ujOQ8C.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Revisiting Attributed Network Embedding: A GCN-Based Perspective]()
-
-
-
+- <span class="conference-badge">Springer</span>
+[Revisiting Attributed Network Embedding: A GCN-Based Perspective](https://link.springer.com/chapter/10.1007/978-3-031-01590-8_4)
+Cheng Yang, Chuan Shi, Zhiyuan Liu, Cunchao Tu & Maosong Sun
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:P5F9QuxV20EC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FP5F9QuxV20EC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Network Embedding for Recommendation Systems on LBSNs]()
-
-
-
+- <span class="conference-badge">Springer</span>
+[Network Embedding for Recommendation Systems on LBSNs](https://link.springer.com/chapter/10.1007/978-3-031-01590-8_11)
+Cheng Yang, Chuan Shi, Zhiyuan Liu, Cunchao Tu & Maosong Sun
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:1sJd4Hv_s6UC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2F1sJd4Hv_s6UC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Network Embedding for Graphs with Node Labels]()
-
-
-
+- <span class="conference-badge">Springer</span>
+[Network Embedding for Graphs with Node Labels](https://link.springer.com/chapter/10.1007/978-3-031-01590-8_6)
+Cheng Yang, Chuan Shi, Zhiyuan Liu, Cunchao Tu & Maosong Sun
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:xtRiw3GOFMkC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FxtRiw3GOFMkC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Network Embedding for Graphs with Node Attributes]()
-
-
-
+- <span class="conference-badge">Springer</span>
+[Network Embedding for Graphs with Node Attributes](https://link.springer.com/chapter/10.1007/978-3-031-01590-8_3)
+Cheng Yang, Chuan Shi, Zhiyuan Liu, Cunchao Tu & Maosong Sun
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:NhqRSupF_l8C'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FNhqRSupF_l8C.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Network Embedding for General Graphs]()
-
-
-
+- <span class="conference-badge">Springer</span>
+[Network Embedding for General Graphs](https://link.springer.com/chapter/10.1007/978-3-031-01590-8_2)
+Cheng Yang, Chuan Shi, Zhiyuan Liu, Cunchao Tu & Maosong Sun
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:abG-DnoFyZgC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FabG-DnoFyZgC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Future Directions of Network Embedding]()
-
-
-
+- <span class="conference-badge">Springer</span>
+[Future Directions of Network Embedding](https://link.springer.com/chapter/10.1007/978-3-031-01590-8_13)
+Cheng Yang, Chuan Shi, Zhiyuan Liu, Cunchao Tu & Maosong Sun
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:b0M2c_1WBrUC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2Fb0M2c_1WBrUC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
@@ -756,90 +735,79 @@ Ganqu Cui, Yufeng Du, **Cheng Yang**, Jie Zhou, Liang Xu, Xing Zhou, Xingyi Chen
 
 ## ⌛️ 2020
 
-- <span class="conference-badge">Conference Name</span>[Graph neural networks: A review of methods and applications](https://arxiv.org/abs/1812.08434v6)
+- <span class="conference-badge">AI Open 2020</span>
+[Graph neural networks: A review of methods and applications](https://arxiv.org/abs/1812.08434v6)
 Jie Zhou, Ganqu Cui, Shengding Hu, Zhengyan Zhang, **Cheng Yang**, Zhiyuan Liu, Lifeng Wang, Changcheng Li, Maosong Sun
-
-
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:WF5omc3nYNoC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FWF5omc3nYNoC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Adaptive graph encoder for attributed graph embedding](https://arxiv.org/abs/2007.01594v1)
+- <span class="conference-badge">KDD 2020</span>
+[Adaptive graph encoder for attributed graph embedding](https://arxiv.org/abs/2007.01594v1)
 Ganqu Cui, Jie Zhou, **Cheng Yang**, Zhiyuan Liu
-
-
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:-f6ydRqryjwC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2F-f6ydRqryjwC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Graph neural news recommendation with long-term and short-term interest modeling](https://arxiv.org/abs/1910.14025v2)
+- <span class="conference-badge">Information Processing & Management</span>
+[Graph neural news recommendation with long-term and short-term interest modeling](https://arxiv.org/abs/1910.14025v2)
 Linmei Hu, Chen Li, Chuan Shi, **Cheng Yang**, Chao Shao
-
-
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:Wp0gIr-vW9MC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FWp0gIr-vW9MC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Graph neural news recommendation with unsupervised preference disentanglement]()
-
-
-
+- <span class="conference-badge">ACL 2020</span>
+[Graph neural news recommendation with unsupervised preference disentanglement](https://aclanthology.org/2020.acl-main.392/)
+Linmei Hu, Siyong Xu, Chen Li, Cheng Yang, Chuan Shi, Nan Duan, Xing Xie, Ming Zhou
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:hC7cP41nSMkC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FhC7cP41nSMkC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Mixpoet: Diverse poetry generation via learning controllable mixed latent space](https://arxiv.org/abs/2003.06094v1)
+- <span class="conference-badge">AAAI 2020</span>
+[Mixpoet: Diverse poetry generation via learning controllable mixed latent space](https://arxiv.org/abs/2003.06094v1)
 Xiaoyuan Yi, Ruoyu Li, **Cheng Yang**, Wenhao Li, Maosong Sun
-
-
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:qUcmZB5y_30C'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FqUcmZB5y_30C.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[PewLSTM: Periodic LSTM with Weather-Aware Gating Mechanism for Parking Behavior Prediction.]()
-
-
-
+- <span class="conference-badge">IJCAI 2020</span>
+[PewLSTM: Periodic LSTM with Weather-Aware Gating Mechanism for Parking Behavior Prediction](https://www.ijcai.org/proceedings/2020/610)
+Feng Zhang, Ningxuan Feng, Yani Liu, Cheng Yang, Jidong Zhai, Shuhao Zhang, Bingsheng He, Jiazao Lin, Xiaoyong Du
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:hFOr9nPyWt4C'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FhFOr9nPyWt4C.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Improving sequence modeling ability of recurrent neural networks via sememes](https://arxiv.org/abs/1910.08910v2)
+- <span class="conference-badge">IEEE TASLP 2020</span>
+[Improving sequence modeling ability of recurrent neural networks via sememes](https://arxiv.org/abs/1910.08910v2)
 Yujia Qin, Fanchao Qi, Sicong Ouyang, Zhiyuan Liu, **Cheng Yang**, Yasheng Wang, Qun Liu, Maosong Sun
-
-
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:mB3voiENLucC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FmB3voiENLucC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Cosine: compressive network embedding on large-scale information networks](https://arxiv.org/abs/1812.08972v1)
+- <span class="conference-badge">IEEE TKDE 2020</span>
+[Cosine: compressive network embedding on large-scale information networks](https://arxiv.org/abs/1812.08972v1)
 Zhengyan Zhang, **Cheng Yang**, Zhiyuan Liu, Maosong Sun, Zhichong Fang, Bo Zhang, Leyu Lin
-
-
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:YsMSGLbcyi4C'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FYsMSGLbcyi4C.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[KACC: A multi-task benchmark for knowledge abstraction, concretization and completion](https://arxiv.org/abs/2004.13631v2)
+- <span class="conference-badge">arxiv preprint</span>
+[KACC: A multi-task benchmark for knowledge abstraction, concretization and completion](https://arxiv.org/abs/2004.13631v2)
 Jie Zhou, Shengding Hu, Xin Lv, **Cheng Yang**, Zhiyuan Liu, Wei Xu, Jie Jiang, Juanzi Li, Maosong Sun
-
-
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:yD5IFk8b50cC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FyD5IFk8b50cC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Information diffusion prediction with latent factor disentanglement](https://arxiv.org/abs/2012.08828v1)
+- <span class="conference-badge">arxiv preprint</span>
+[Information diffusion prediction with latent factor disentanglement](https://arxiv.org/abs/2012.08828v1)
 Haoran Wang, **Cheng Yang**
-
-
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:R3hNpaxXUhUC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FR3hNpaxXUhUC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Reinforced zero-shot cross-lingual neural headline generation]()
-
-
-
+- <span class="conference-badge">IEEE TASLP 2020</span>
+[Reinforced zero-shot cross-lingual neural headline generation](https://ieeexplore.ieee.org/document/9142327)
+Ayana, Yun Chen, Cheng Yang, Zhiyuan Liu, Maosong Sun
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:HDshCWvjkbEC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FHDshCWvjkbEC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
@@ -848,50 +816,44 @@ Haoran Wang, **Cheng Yang**
 
 ## ⌛️ 2019
 
-- <span class="conference-badge">Conference Name</span>[GEAR: Graph-based Evidence Aggregating and Reasoning for Fact Verification](https://arxiv.org/abs/1908.01843v1)
+- <span class="conference-badge">arxiv preprint</span>
+[GEAR: Graph-based Evidence Aggregating and Reasoning for Fact Verification](https://arxiv.org/abs/1908.01843v1)
 Jie Zhou, Xu Han, **Cheng Yang**, Zhiyuan Liu, Lifeng Wang, Changcheng Li, Maosong Sun
-
-
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:ULOm3_A8WrAC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FULOm3_A8WrAC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[CED: Credible early detection of social media rumors](https://arxiv.org/abs/1811.04175v1)
+- <span class="conference-badge">IEEE TKDE 2019</span>
+[CED: Credible early detection of social media rumors](https://arxiv.org/abs/1811.04175v1)
 Changhe Song, Cunchao Tu, **Cheng Yang**, Zhiyuan Liu, Maosong Sun
-
-
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:W7OEmFMy1HYC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FW7OEmFMy1HYC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Neural diffusion model for microscopic cascade study]()
-
-
-
+- <span class="conference-badge">IEEE TKDE 2019</span>
+[Neural diffusion model for microscopic cascade study](https://www.computer.org/csdl/journal/tk/2021/03/08826231/1d6xzrAu3rW)
+Cheng Yang, Maosong Sun, Haoran Liu, Shiyi Han, Zhiyuan Liu, Huanbo Luan
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:4TOpqqG69KYC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2F4TOpqqG69KYC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Sentiment-Controllable Chinese Poetry Generation.]()
-
-
-
+- <span class="conference-badge">IJCAI 2019</span>
+[Sentiment-Controllable Chinese Poetry Generation](https://www.ijcai.org/proceedings/2019/684)
+Huimin Chen, Xiaoyuan Yi, Maosong Sun, Wenhao Li, Cheng Yang, Zhipeng Guo
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:_FxGoFyzp5QC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2F_FxGoFyzp5QC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Improving distantly-supervised relation extraction with joint label embedding]()
-
-
-
+- <span class="conference-badge">EMNLP 2019</span>
+[Improving distantly-supervised relation extraction with joint label embedding](https://aclanthology.org/D19-1395/)
+Linmei Hu, Luhao Zhang, Chuan Shi, Liqiang Nie, Weili Guan, Cheng Yang
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:_kc_bZDykSQC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2F_kc_bZDykSQC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Jiuge: A human-machine collaborative chinese classical poetry generation system]()
-
-
-
+- <span class="conference-badge">ACL 2019</span>
+[Jiuge: A human-machine collaborative chinese classical poetry generation system](https://aclanthology.org/P19-3005/)
+Guo Zhipeng, Xiaoyuan Yi, Maosong Sun, Wenhao Li, Cheng Yang, Jiannan Liang, Huimin Chen, Yuhui Zhang, Ruoyu Li
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:3fE2CSJIrl8C'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2F3fE2CSJIrl8C.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
@@ -900,34 +862,30 @@ Changhe Song, Cunchao Tu, **Cheng Yang**, Zhiyuan Liu, Maosong Sun
 
 ## ⌛️ 2018
 
-- <span class="conference-badge">Conference Name</span>[Stylistic chinese poetry generation via unsupervised style disentanglement]()
-
-
-
+- <span class="conference-badge">EMNLP 2018</span>
+[Stylistic chinese poetry generation via unsupervised style disentanglement](https://aclanthology.org/D18-1430/)
+Cheng Yang, Maosong Sun, Xiaoyuan Yi, Wenhao Li
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:Y0pCki6q_DkC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FY0pCki6q_DkC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Zero-shot cross-lingual neural headline generation]()
-
-
-
+- <span class="conference-badge">IEEE TASLP 2018</span>
+[Zero-shot cross-lingual neural headline generation](https://dl.acm.org/doi/10.1109/TASLP.2018.2842432)
+Shi-qi Shen, Yun Chen, Cheng Yang, Zhi-yuan Liu, Mao-song Sun
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:zYLM7Y9cAGgC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FzYLM7Y9cAGgC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Chinese LIWC lexicon expansion via hierarchical classification of word embeddings with sememe attention]()
-
-
-
+- <span class="conference-badge">AAAI 2018</span>
+[Chinese LIWC lexicon expansion via hierarchical classification of word embeddings with sememe attention](https://dl.acm.org/doi/10.5555/3504035.3504728)
+Xiangkai Zeng, Cheng Yang, Cunchao Tu, Zhiyuan Liu, Maosong Sun
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:IjCSPb-OGe4C'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FIjCSPb-OGe4C.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[基于神经网络的集句诗自动生成]()
-
-
-
+- <span class="conference-badge">中文信息学报</span>
+[基于神经网络的集句诗自动生成](https://jcip.cipsc.org.cn/CN/Y2019/V33/I3/126)
+梁健楠， 孙茂松， 矣晓沅， 杨成， 陈慧敏， 刘正皓
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:roLk4NBRz8UC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FroLk4NBRz8UC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
@@ -936,26 +894,23 @@ Changhe Song, Cunchao Tu, **Cheng Yang**, Zhiyuan Liu, Maosong Sun
 
 ## ⌛️ 2017
 
-- <span class="conference-badge">Conference Name</span>[A neural network approach to jointly modeling social networks and mobile trajectories]()
-
-
-
+- <span class="conference-badge">TOIS 2017</span>
+[A neural network approach to jointly modeling social networks and mobile trajectories](https://dl.acm.org/doi/10.1145/3041658)
+Cheng Yang, Maosong Sun, Wayne Xin Zhao, Zhiyuan Liu, Edward Y. Chang
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:qjMakFHDy7sC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FqjMakFHDy7sC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Fast network embedding enhancement via high order proximity approximation.]()
-
-
-
+- <span class="conference-badge">IJCAI 2017</span>
+[Fast network embedding enhancement via high order proximity approximation](https://www.ijcai.org/proceedings/2017/544)
+Cheng Yang, Maosong Sun, Zhiyuan Liu, Cunchao Tu
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:2osOgNQ5qMEC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2F2osOgNQ5qMEC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[网络表示学习综述]()
-
-
-
+- <span class="conference-badge">中国科学: 信息科学</span>
+[网络表示学习综述](https://cdn.jsdelivr.net/gh/it-ebooks-0/it-ebooks-2018-08to10/%E7%BD%91%E7%BB%9C%E8%A1%A8%E7%A4%BA%E5%AD%A6%E4%B9%A0%E7%BB%BC%E8%BF%B0%EF%BC%88%E6%B6%82%E5%AD%98%E8%B6%85%E7%AD%89%EF%BC%89.pdf)
+涂存超， 杨成， 刘知远， 孙茂松
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:TQgYirikUcIC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FTQgYirikUcIC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
@@ -964,28 +919,25 @@ Changhe Song, Cunchao Tu, **Cheng Yang**, Zhiyuan Liu, Maosong Sun
 
 ## ⌛️ 2016
 
-- <span class="conference-badge">Conference Name</span>[Real-time topic-aware influence maximization using preprocessing](https://arxiv.org/abs/1403.0057v2)
+- <span class="conference-badge">Computational social networks 2016</span>
+[Real-time topic-aware influence maximization using preprocessing](https://arxiv.org/abs/1403.0057v2)
 Wei Chen, Tian Lin, **Cheng Yang**
-
-
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:d1gkVwhDpl0C'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2Fd1gkVwhDpl0C.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
 ## ⌛️ 2015
 
-- <span class="conference-badge">Conference Name</span>[Network representation learning with rich text information]()
-
-
-
+- <span class="conference-badge">IJCAI 2015</span>
+[Network representation learning with rich text information](https://www.ijcai.org/Proceedings/15/Papers/299.pdf)
+Cheng Yang, Zhiyuan Liu, Deli Zhao, Maosong Sun, Edward Y. Chang
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:u5HHmVD_uO8C'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2Fu5HHmVD_uO8C.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Comprehend deepwalk as matrix factorization](https://arxiv.org/abs/1501.00358v1)
+- <span class="conference-badge">arxiv preprint</span>
+[Comprehend deepwalk as matrix factorization](https://arxiv.org/abs/1501.00358v1)
 **Cheng Yang**, Zhiyuan Liu
-
-
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:LkGwnXOMwfcC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FLkGwnXOMwfcC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
