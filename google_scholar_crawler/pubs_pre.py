@@ -75,8 +75,11 @@ def main():
     主函数，读取JSON文件，提取、排序、保存论文信息。
     """
     # 读取JSON文件 (替换为你的JSON文件路径)
-    with open("results/gs_data.json", "r", encoding="utf-8") as f:
-        data = json.load(f)
+    
+    json_file = f'results/gs_data.json'
+    data = json.load(open(json_file, 'r'))
+    # with open("results/gs_data.json", "r", encoding="utf-8") as f:
+    #     data = json.load(f)
 
     # 提取论文信息
     publications = extract_publication_info(data)

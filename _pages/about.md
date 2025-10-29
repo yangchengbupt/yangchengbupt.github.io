@@ -361,90 +361,84 @@ Chen Qian, Yufan Dang, Jiahao Li, Wei Liu, Zihao Xie, Yifei Wang, Weize Chen, **
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:eJXPG6dFmWUC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FeJXPG6dFmWUC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
-- <span class="conference-badge">Conference Name</span>[A Data-centric Framework to Endow Graph Neural Networks with Out-Of-Distribution Detection Ability]()
-
-
-
+- <span class="conference-badge">KDD 2023</span>
+[A Data-centric Framework to Endow Graph Neural Networks with Out-Of-Distribution Detection Ability](https://dl.acm.org/doi/10.1145/3580305.3599244)
+Yuxin Guo, Cheng Yang, Yuluo Chen, Jixi Liu, Chuan Shi, Junping Du
+[![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://github.com/BUPT-GAMMA/AAGOD)
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:_xSYboBqXhAC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2F_xSYboBqXhAC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Distance Information Improves Heterogeneous Graph Neural Networks]()
-
-
-
+- <span class="conference-badge">TKDE 2023</span>
+[Distance Information Improves Heterogeneous Graph Neural Networks](https://dl.acm.org/doi/abs/10.1109/TKDE.2023.3300879)
+Chuan Shi, Houye Ji, Zhiyuan Lu, Ye Tang, Pan Li, Cheng Yang
+[![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://github.com/BUPT-GAMMA/HDE)
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:738O_yMBCRsC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2F738O_yMBCRsC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Learning to distill graph neural networks]()
-
-
-
+- <span class="conference-badge">WSDM 2023</span>
+[Learning to distill graph neural networks](https://dl.acm.org/doi/abs/10.1109/TKDE.2023.3300879)
+Cheng Yang, Yuxin Guo, Yao Xu, Chuan Shi, Jiawei Liu, Chunchen Wang, Xin Li, Ning Guo, Hongzhi Yin
+[![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://github.com/BUPT-GAMMA/LTD)
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:u_35RYKgDlwC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2Fu_35RYKgDlwC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Graph mining for cybersecurity: A survey](https://arxiv.org/abs/2304.00485v2)
+- <span class="conference-badge">TKDD 2023</span>
+[Graph mining for cybersecurity: A survey](https://arxiv.org/abs/2304.00485v2)
 Bo Yan, **Cheng Yang**, Chuan Shi, Yong Fang, Qi Li, Yanfang Ye, Junping Du
-
-
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:D03iK_w7-QYC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FD03iK_w7-QYC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[A Post-Training Framework for Improving Heterogeneous Graph Neural Networks](https://arxiv.org/abs/2304.00698v1)
+- <span class="conference-badge">WWW 2023</span>
+[A Post-Training Framework for Improving Heterogeneous Graph Neural Networks](https://arxiv.org/abs/2304.00698v1)
 **Cheng Yang**, Xumeng Gong, Chuan Shi, Philip S. Yu
-
-
+[![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://github.com/BUPT-GAMMA/HGPF)
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:bFI3QPDXJZMC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FbFI3QPDXJZMC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Datasets and Interfaces for Benchmarking Heterogeneous Graph Neural Networks]()
-
-
-
+- <span class="conference-badge">CIKM 2023</span>
+[Datasets and Interfaces for Benchmarking Heterogeneous Graph Neural Networks](https://dl.acm.org/doi/10.1145/3583780.3615117)
+Yijian Liu, Hongyi Zhang, Cheng Yang, Ao Li, Yugang Ji, Luhao Zhang, Tao Li, Jinyu Yang, Tianyu Zhao, Juan Yang, Hai Huang, Chuan Shi
+[![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://github.com/BUPT-GAMMA/hgbi)
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:tOudhMTPpwUC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FtOudhMTPpwUC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Memory-enhanced period-aware graph neural network for general POI recommendation]()
-
-
-
+- <span class="conference-badge">DASFAA 2023</span>
+[Memory-enhanced period-aware graph neural network for general POI recommendation](https://dl.acm.org/doi/abs/10.1007/978-3-031-30672-3_31)
+Tianchi Yang, Haihan Gao, Cheng Yang, Chuan Shi, Qianlong Xie, Xingxing Wang, Dong Wang
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:4OULZ7Gr8RgC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2F4OULZ7Gr8RgC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Advances in Graph Neural Networks]()
-
-
-
+- <span class="conference-badge">Springer</span>[Advances in Graph Neural Networks]()
+Chuan Shi, Xiao Wang, Cheng Yang
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:zA6iFVUQeVQC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FzA6iFVUQeVQC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Gammagl: A multi-backend library for graph neural networks]()
-
-
-
+- <span class="conference-badge">SIGIR 2023</span>
+[Gammagl: A multi-backend library for graph neural networks](https://dl.acm.org/doi/10.1145/3539618.3591891)
+[![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://github.com/BUPT-GAMMA/GammaGL)
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:f2IySw72cVMC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2Ff2IySw72cVMC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Abnormal event detection via hypergraph contrastive learning](https://arxiv.org/abs/2304.01226v1)
+- <span class="conference-badge">SDM 2023</span>
+[Abnormal event detection via hypergraph contrastive learning](https://arxiv.org/abs/2304.01226v1)
 Bo Yan, **Cheng Yang**, Chuan Shi, Jiawei Liu, Xiaochen Wang
-
-
+[![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://github.com/BUPT-GAMMA/AEHCL)
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:dfsIfKJdRG4C'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FdfsIfKJdRG4C.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Graph Representation Learning]()
-
-
-
+- <span class="conference-badge">FCS 2021</span>
+[Graph Representation Learning]()
+Linmei Hu, Mengmei Zhang, Shaohua Li, Jinghan Shi, Chuan Shi, Cheng Yang and Zhiyuan Liu
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:l7t_Zn2s7bgC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2Fl7t_Zn2s7bgC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
@@ -452,98 +446,91 @@ Bo Yan, **Cheng Yang**, Chuan Shi, Jiawei Liu, Xiaochen Wang
 
 
 
-- <span class="conference-badge">Conference Name</span>[Few-shot link prediction in dynamic networks]()
-
-
-
+- <span class="conference-badge">WSDM 2022</span>[Few-shot link prediction in dynamic networks]()
+Cheng Yang, Chunchen Wang, Yuanfu Lu, Xumeng Gong,Chuan Shi, Wei Wang, Xu Zhang
+[![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://github.com/BUPT-GAMMA/MetaDyGNN)
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:J_g5lzvAfSwC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FJ_g5lzvAfSwC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[A survey on heterogeneous information network based recommender systems: Concepts, methods, applications and resources]()
-
-
-
+- <span class="conference-badge">AI Open 2022</span>
+[A survey on heterogeneous information network based recommender systems: Concepts, methods, applications and resources](https://www.sciencedirect.com/science/article/pii/S2666651022000092)
+Jiawei Liu, Chuan Shi, Cheng Yang, Zhiyuan Lu, Philip S.Yu
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:lSLTfruPkqcC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FlSLTfruPkqcC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Space4hgnn: a novel, modularized and reproducible platform to evaluate heterogeneous graph neural network](https://arxiv.org/abs/2202.09177v2)
+- <span class="conference-badge">SIGIR 2022</span>[Space4hgnn: a novel, modularized and reproducible platform to evaluate heterogeneous graph neural network](https://arxiv.org/abs/2202.09177v2)
 Tianyu Zhao, **Cheng Yang**, Yibo Li, Quan Gan, Zhenyi Wang, Fengqi Liang, Huan Zhao, Yingxia Shao, Xiao Wang, Chuan Shi
-
-
+[![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://github.com/BUPT-GAMMA/Space4HGNN)
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:RYcK_YlVTxYC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FRYcK_YlVTxYC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Openhgnn: an open source toolkit for heterogeneous graph neural network]()
-
-
-
+- <span class="conference-badge">CIKM 2022</span>
+[Openhgnn: an open source toolkit for heterogeneous graph neural network](https://dl.acm.org/doi/abs/10.1145/3511808.3557664)
+Hui Han, Tianyu Zhao, Cheng Yang, Hongyi Zhang, Yaoqi Liu, Xiao Wang, Chuan Shi
+[![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://github.com/BUPT-GAMMA/OpenHGNN)
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:M05iB0D1s5AC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FM05iB0D1s5AC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Co-clustering interactions via attentive hypergraph neural network]()
-
-
-
+- <span class="conference-badge">SIGIR 2022</span>
+[Co-clustering interactions via attentive hypergraph neural network]()
+Tianchi Yang, Cheng Yang, Luhao Zhang, Chuan Shi, Maodi Hu, Huaijun Liu, Tao Li, Dong Wang
+[![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://github.com/BUPT-GAMMA/CIAH)
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:vV6vV6tmYwMC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FvV6vV6tmYwMC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Midtd: A simple and effective distillation framework for distantly supervised relation extraction]()
-
-
-
+- <span class="conference-badge">ACM TOIS 2022</span>
+[Midtd: A simple and effective distillation framework for distantly supervised relation extraction](https://dl.acm.org/doi/abs/10.1145/3503917)
+Rui Li, Cheng Yang, Tingwei Li, Sen Su
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:ns9cj8rnVeAC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2Fns9cj8rnVeAC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Network embedding: Theories, methods, and applications]()
-
-
-
+- <span class="conference-badge">Morgan & Claypool Publishers</span>
+[Network embedding: Theories, methods, and applications](https://link.springer.com/book/10.1007/978-3-031-01590-8)
+Cheng Yang，Zhiyuan Liu，Cunchao Tu，Chuan Shi，Maosong Sun
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:_Qo2XoVZTnwC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2F_Qo2XoVZTnwC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Payment behavior prediction on shared parking lots with TR-GCN]()
-
-
-
+- <span class="conference-badge">VLDB 2022</span>
+[Payment behavior prediction on shared parking lots with TR-GCN](https://dl.acm.org/doi/abs/10.1007/s00778-021-00722-0)
+Qingyu Xu, Feng Zhang, Mingde Zhang, Jidong Zhai, Bingsheng He, Cheng Yang, Shuhao Zhang, Jiazao Lin, Haidi Liu, Xiaoyong Du
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:2P1L_qKh6hAC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2F2P1L_qKh6hAC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[A dual-expert framework for event argument extraction]()
-
-
-
+- <span class="conference-badge">SIGIR 2022</span>
+[A dual-expert framework for event argument extraction](https://dl.acm.org/doi/10.1145/3477495.3531923)
+Rui Li, Wenlin Zhao, Cheng Yang, Sen Su
+[![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://github.com/carrie0307/DL_EventExtractionPapers)
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:ldfaerwXgEUC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FldfaerwXgEUC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Gated Hypergraph Neural Network for Scene-Aware Recommendation]()
-
-
-
+- <span class="conference-badge">DASFAA 2022</span>
+[Gated Hypergraph Neural Network for Scene-Aware Recommendation](https://dl.acm.org/doi/10.1007/978-3-031-00126-0_13)
+Tianchi Yang, Luhao Zhang, Chuan Shi, Cheng Yang, Siyong Xu, Ruiyu Fang, Maodi Hu, Huaijun Liu, Tao Li, Dong Wang
+[![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://github.com/BUPT-GAMMA/CIAH)
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:70eg2SAEIzsC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2F70eg2SAEIzsC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Hypergraph Clustering Network for Interaction Data.]()
-
-
-
+- <span class="conference-badge">IEEE Computer Society Technical Committee on Data Engineering 2022</span>
+[Hypergraph Clustering Network for Interaction Data](http://sites.computer.org/debull/A22dec/p88.pdf)
+Tianchi Yang, Luhao Zhang, Cheng Yang, Chuan Shi, Maodi Hu, Tao Li, Dong Wang
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:rO6llkc54NcC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FrO6llkc54NcC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Future Direction and Conclusion]()
-
-
-
+- <span class="conference-badge">Advances in Graph Neural Networks
+ (Book)</span>
+[Future Direction and Conclusion](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:u9iWguZQMMsC)
+Chuan Shi, Xiao Wang, Cheng Yang
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:u9iWguZQMMsC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2Fu9iWguZQMMsC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
@@ -551,50 +538,48 @@ Tianyu Zhao, **Cheng Yang**, Yibo Li, Quan Gan, Zhenyi Wang, Fengqi Liang, Huan 
 
 ## ⌛️ 2021
 
-- <span class="conference-badge">Conference Name</span>[Extract the knowledge of graph neural networks and go beyond it: An effective knowledge distillation framework](https://arxiv.org/abs/2103.02885v1)
+- <span class="conference-badge">WWW 2021</span>
+[Extract the knowledge of graph neural networks and go beyond it: An effective knowledge distillation framework](https://arxiv.org/abs/2103.02885v1)
 **Cheng Yang**, Jiawei Liu, Chuan Shi
-
-
+[![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://github.com/BUPT-GAMMA/CPF)
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:e5wmG9Sq2KIC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2Fe5wmG9Sq2KIC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Full-Scale Information Diffusion Prediction With Reinforced Recurrent Networks]()
-
-
-
+- <span class="conference-badge">IEEE TNNLS 2022</span>
+[Full-Scale Information Diffusion Prediction With Reinforced Recurrent Networks](https://ieeexplore.ieee.org/document/9526884/)
+Cheng Yang, Hao Wang, Jian Tang, Chuan Shi, Maosong Sun, Ganqu Cui
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:JV2RwH3_ST0C'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FJV2RwH3_ST0C.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Be confident! towards trustworthy graph neural networks via confidence calibration](https://arxiv.org/abs/2109.14285v3)
+- <span class="conference-badge">NeurIPS 2021</span>
+[Be confident! towards trustworthy graph neural networks via confidence calibration](https://arxiv.org/abs/2109.14285v3)
 Xiao Wang, Hongrui Liu, Chuan Shi, **Cheng Yang**
-
-
+[![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://github.com/BUPT-GAMMA/CaGCN)
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:isC4tDSrTZIC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FisC4tDSrTZIC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Topic-aware heterogeneous graph neural network for link prediction]()
-
-
-
+- <span class="conference-badge">CIKM 2021</span>
+[Topic-aware heterogeneous graph neural network for link prediction]()
+Siyong Xu, Cheng Yang, Chuan Shi, Yuan Fang, Yuxin Guo, Tianchi Yang, Luhao Zhang, Maodi Hu
+[![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://github.com/BUPT-GAMMA/THGNN)
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:maZDTaKrznsC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FmaZDTaKrznsC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[Periodic weather-aware LSTM with event mechanism for parking behavior prediction]()
-
-
-
+- <span class="conference-badge">IEEE TKDE 2021</span>
+[Periodic weather-aware LSTM with event mechanism for parking behavior prediction](https://ieeexplore.ieee.org/document/9392279/)
+Feng Zhang, Yani Liu, Ningxuan Feng, Cheng Yang, Jidong Zhai, Shuhao Zhang
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:RHpTSmoSYBkC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FRHpTSmoSYBkC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 
-- <span class="conference-badge">Conference Name</span>[From symbols to embeddings: A tale of two representations in computational social science](https://arxiv.org/abs/2106.14198v1)
+- <span class="conference-badge">Journal of Social Computing</span>
+[From symbols to embeddings: A tale of two representations in computational social science](https://arxiv.org/abs/2106.14198v1)
 Huimin Chen, **Cheng Yang**, Xuanming Zhang, Zhiyuan Liu, Maosong Sun, Jianbin Jin
-
-
+[![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://github.com/thunlp/CSSReview)
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:r0BpntZqJG4C'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2Fr0BpntZqJG4C.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
