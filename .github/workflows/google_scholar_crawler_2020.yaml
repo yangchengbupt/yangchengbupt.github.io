@@ -2,11 +2,15 @@ name: Get Citation Data 2020
 
 on:
   schedule:
-    - cron: '0 8 * * *'
+    - cron: '50 8 * * *'
   workflow_dispatch:
+  workflow_run:
+    workflows: ['Get Citation Data 2019']
+    types: [completed]
 
 jobs:
   build:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
