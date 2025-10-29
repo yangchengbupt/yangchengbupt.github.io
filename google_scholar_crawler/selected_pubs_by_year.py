@@ -22,20 +22,20 @@ def find_citations_by_long_id(data: dict, target_long_id: str):
     return None, None
 
 
-def run_for_year(year: int) -> None:
+def run_for_year(year: int, csv_path: str | None = None) -> None:
     results_dir = Path('results')
     sel_dir = results_dir / 'selected_pubs'
     sel_dir.mkdir(parents=True, exist_ok=True)
 
     # inputs
-    csv_path = results_dir / 'all_publications.csv'
+    csv_file = Path(csv_path) if csv_path else (results_dir / 'all_publications.csv')
     gs_path = results_dir / 'gs_data.json'
 
-    if not csv_path.exists() or not gs_path.exists():
-        print(f"[warn] prerequisites missing: {csv_path} or {gs_path} not found; skip {year}")
+    if not csv_file.exists() or not gs_path.exists():
+        print(f"[warn] prerequisites missing: {csv_file} or {gs_path} not found; skip {year}")
         return
 
-    long_ids = read_long_ids_for_year(str(csv_path), str(year))
+    long_ids = read_long_ids_for_year(str(csv_file), str(year))
     data = json.load(open(gs_path, 'r'))
 
     saved = 0
@@ -59,10 +59,10 @@ def run_for_year(year: int) -> None:
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--year', type=int, required=True)
+    parser.add_argument('--csv', type=str, default=None, help='Optional year-specific CSV to read from')
     args = parser.parse_args()
-    run_for_year(args.year)
+    run_for_year(args.year, csv_path=args.csv)
 
 
 if __name__ == '__main__':
     main()
-

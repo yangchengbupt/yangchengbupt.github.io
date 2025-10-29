@@ -36,7 +36,7 @@ def fetch_author(author_id: str, max_retries: int = 5, base_delay: float = 2.0) 
                 for i, pub in enumerate(pub_iter, start=1):
                     pubs.append(pub)
                     if i % 5 == 0:
-                        time.sleep(3)
+                        time.sleep(1)
             except Exception:
                 # 回退到一次性填充（不可控节流，但保证兼容）
                 scholarly.fill(author, sections=['publications'])
@@ -44,7 +44,7 @@ def fetch_author(author_id: str, max_retries: int = 5, base_delay: float = 2.0) 
                 for i, pub in enumerate(author.get('publications', []), start=1):
                     pubs.append(pub)
                     if i % 5 == 0:
-                        time.sleep(3)
+                        time.sleep(1)
 
             if used_iter:
                 author['publications'] = pubs

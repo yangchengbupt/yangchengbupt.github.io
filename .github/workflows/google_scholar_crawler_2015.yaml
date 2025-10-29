@@ -19,8 +19,9 @@ jobs:
         run: |
           cd ./google_scholar_crawler
           pip3 install -r requirements.txt
-          python3 main.py
-          python3 pubs_pre.py
+          # Use base gs_data.json; only preprocess current year and generate selected pubs
+          python3 pubs_pre_by_year.py --year 2015 --out ../results/all_publications_2015.csv
+          python3 selected_pubs_by_year.py --year 2015 --csv ../results/all_publications_2015.csv
           python3 selected_pubs_2015.py
           cd ./results
           git init
@@ -29,4 +30,3 @@ jobs:
           git add .
           git commit -m "Updated Citation Data (2015)"
           git push "${remote_repo}" HEAD:google-scholar-stats-2015 --force
-

@@ -19,8 +19,8 @@ jobs:
         run: |
           cd ./google_scholar_crawler
           pip3 install -r requirements.txt
-          python3 main.py
-          python3 pubs_pre.py
+          python3 pubs_pre_by_year.py --year 2024 --out ../results/all_publications_2024.csv
+          python3 selected_pubs_by_year.py --year 2024 --csv ../results/all_publications_2024.csv
           python3 selected_pubs_2024.py
           cd ./results
           git init
@@ -29,4 +29,3 @@ jobs:
           git add .
           git commit -m "Updated Citation Data (2024)"
           git push "${remote_repo}" HEAD:google-scholar-stats-2024 --force
-
