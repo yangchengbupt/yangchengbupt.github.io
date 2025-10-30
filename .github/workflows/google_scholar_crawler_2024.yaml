@@ -3,14 +3,9 @@ name: Get Citation Data 2024
 on:
   schedule:
     - cron: '30 9 * * *'
-  workflow_dispatch:
-  workflow_run:
-    workflows: ['Get Citation Data 2023']
-    types: [completed]
 
 jobs:
   build:
-    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2

@@ -3,9 +3,6 @@ name: Get Citation Data 2015
 on:
   schedule:
     - cron: '0 8 * * *'
-  workflow_dispatch:
-  push:
-    branches: [ main ]
 
 jobs:
   build:
