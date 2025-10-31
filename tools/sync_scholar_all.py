@@ -34,9 +34,12 @@ from typing import Dict, Iterable, List, Tuple
 from scholarly import scholarly, ProxyGenerator
 
 
-def init_proxy() -> None:
+def init_proxy(disable: bool) -> None:
+    if disable:
+        return
     pg = ProxyGenerator()
     try:
+        # Gracefully ignore failures; many environments don't need proxies.
         if not pg.FreeProxies():
             print("[warn] No free proxies acquired; proceeding without proxies.")
         scholarly.use_proxy(pg)
@@ -44,11 +47,25 @@ def init_proxy() -> None:
         print(f"[warn] Failed to initialize proxies: {e}")
 
 
-def fetch_author(author_id: str) -> Dict:
-    init_proxy()
-    author: dict = scholarly.search_author_id(author_id)
-    scholarly.fill(author, sections=["basics", "indices", "counts", "publications"])
-    return author
+def fetch_author(author_id: str, *, retries: int = 5, base_delay: float = 2.0, disable_proxy: bool = False) -> Dict:
+    import random, time
+    init_proxy(disable_proxy)
+    last = None
+    for attempt in range(1, retries + 1):
+        try:
+            author: dict = scholarly.search_author_id(author_id)
+            # Lighter fill to reduce chance of rate limiting
+            scholarly.fill(author, sections=["basics", "publications"])  # omit indices/counts
+            if not author or 'publications' not in author:
+                raise RuntimeError('Empty author payload')
+            return author
+        except Exception as e:
+            last = e
+            wait = base_delay * (2 ** (attempt - 1)) + random.uniform(0, 1)
+            print(f"[warn] fetch_author attempt {attempt}/{retries} failed: {e}. retry in {wait:.1f}s")
+            time.sleep(wait)
+            init_proxy(disable_proxy)
+    raise last
 
 
 def load_existing_ids(results_dir: Path) -> set:
@@ -110,6 +127,7 @@ def ensure_selected_pub(results_dir: Path, sid: str, citations: int) -> None:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--delay", type=float, default=2.0, help="Delay between lightweight calls (seconds)")
+    ap.add_argument("--no-proxy", action="store_true", help="Disable proxy usage even if available")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--repo", default="yangchengbupt/yangchengbupt.github.io")
     args = ap.parse_args()
@@ -122,7 +140,7 @@ def main() -> int:
     results_dir = Path("results")
     results_dir.mkdir(exist_ok=True)
 
-    author = fetch_author(author_id)
+    author = fetch_author(author_id, disable_proxy=args.no_proxy)
     pubs = author.get("publications", [])
     print(f"[info] fetched publications: {len(pubs)}")
 
@@ -192,4 +210,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
