@@ -17,11 +17,11 @@ jobs:
       - name: Install pinned deps (same as yearly)
         run: |
           pip3 install -r google_scholar_crawler/requirements.txt
-      - name: Sync scholar (no proxy, throttled)
+      - name: Sync scholar (about-only quick pass)
         env:
           GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
         run: |
-          python3 tools/sync_scholar_all.py --delay 2.0 --no-proxy
+          python3 tools/sync_scholar_all.py --delay 1.0 --no-proxy --retries 1 --about-only
       - name: Commit changes (main)
         run: |
           git config --local user.name "${{ github.repository_owner }}"

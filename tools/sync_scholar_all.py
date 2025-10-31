@@ -128,6 +128,8 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--delay", type=float, default=2.0, help="Delay between lightweight calls (seconds)")
     ap.add_argument("--no-proxy", action="store_true", help="Disable proxy usage even if available")
+    ap.add_argument("--retries", type=int, default=2, help="Retries for Scholar fetch before falling back")
+    ap.add_argument("--about-only", action="store_true", help="Skip Scholar network; derive from about.md only")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--repo", default="yangchengbupt/yangchengbupt.github.io")
     args = ap.parse_args()
@@ -142,11 +144,14 @@ def main() -> int:
 
     pubs = []
     try:
-        author = fetch_author(author_id, disable_proxy=args.no_proxy)
-        pubs = author.get("publications", [])
-        print(f"[info] fetched publications: {len(pubs)}")
+        if not args.about_only:
+            author = fetch_author(author_id, retries=max(1, args.retries), disable_proxy=args.no_proxy)
+            pubs = author.get("publications", [])
+            print(f"[info] fetched publications: {len(pubs)}")
+        else:
+            raise RuntimeError('about-only mode')
     except Exception as e:
-        print(f"[warn] scholar fetch failed after retries: {e}. Falling back to about.md scan.")
+        print(f"[warn] scholar fetch skipped/failed: {e}. Falling back to about.md scan.")
         # Fallback to about.md: parse any badges to collect (year, short_id)
         about = Path('_pages') / 'about.md'
         if about.exists():
