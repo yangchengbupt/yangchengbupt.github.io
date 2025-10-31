@@ -1632,6 +1632,14 @@
       "filled": false,
       "author_pub_id": "OlLjVUcAAAAJ:b0M2c_1WBrUC",
       "num_citations": 0
+    },
+    "OlLjVUcAAAAJ:UHK10RUVsp4C": {
+      "author_pub_id": "OlLjVUcAAAAJ:UHK10RUVsp4C",
+      "bib": {
+        "title": "",
+        "pub_year": "2024"
+      },
+      "num_citations": 0
     }
   },
   "citedby5y": 12139,
