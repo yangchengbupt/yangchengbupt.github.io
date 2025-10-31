@@ -40,7 +40,7 @@ Xin Li\*, Qizhi Chu\*, Yubin Chen\*, Yang Liu, Yaoqi Liu, Zekai Yu, Weize Chen, 
 [**Demo**](http://graphteam.cloud/gt/): **You can play it, enjoy yourself!**
 
 - <span class="conference-badge">arXiv preprint</span>
-[Graph foundation models: Concepts, opportunities and challenges](https://arxiv.org/abs/2310.11829)
+[Graph foundation models: Concepts opportunities and challenges](https://arxiv.org/abs/2310.11829)
 Jiawei Liu\*, **Cheng Yang\***, Zhiyuan Lu, Junze Chen, Yibo Li, Mengmei Zhang, Ting Bai, Yuan Fang, Lichao Sun, Philip S. Yu, Chuan Shi
 <!-- [**Source Code**](https://github.com/alibaba/GraphTranslator) -->
 <!-- [![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://github.com/alibaba/GraphTranslator) -->
@@ -333,7 +333,7 @@ Weize Chen, Yusheng Su, Jingwei Zuo, **Cheng Yang**, Chenfei Yuan, Chi-Min Chan,
 
 
 - <span class="conference-badge">arXiv preprint</span>
-[Graph foundation models: Concepts, opportunities and challenges](https://arxiv.org/abs/2310.11829)
+[Graph foundation models: Concepts opportunities and challenges](https://arxiv.org/abs/2310.11829)
 Jiawei Liu, **Cheng Yang**, Zhiyuan Lu, Junze Chen, Yibo Li, Mengmei Zhang, Ting Bai, Yuan Fang, Lichao Sun, Philip S. Yu, Chuan Shi
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:UHK10RUVsp4C'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FUHK10RUVsp4C.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
