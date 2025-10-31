@@ -40,12 +40,12 @@ Xin Li\*, Qizhi Chu\*, Yubin Chen\*, Yang Liu, Yaoqi Liu, Zekai Yu, Weize Chen, 
 [**Demo**](http://graphteam.cloud/gt/): **You can play it, enjoy yourself!**
 
 - <span class="conference-badge">arXiv preprint</span>
-[Towards Graph Foundation Models: A Survey and Beyond](https://arxiv.org/abs/2310.11829)
+[Graph foundation models: Concepts, opportunities and challenges](https://arxiv.org/abs/2310.11829)
 Jiawei Liu\*, **Cheng Yang\***, Zhiyuan Lu, Junze Chen, Yibo Li, Mengmei Zhang, Ting Bai, Yuan Fang, Lichao Sun, Philip S. Yu, Chuan Shi
 <!-- [**Source Code**](https://github.com/alibaba/GraphTranslator) -->
 <!-- [![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://github.com/alibaba/GraphTranslator) -->
 <!-- <strong><span class='show_paper_citations' data='OlLjVUcAAAAJ:sSrBHYA8nusC'></span></strong> -->
-<a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:vRqMK49ujn8C'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FvRqMK49ujn8C.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
+<a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:JQOojiI6XY0C'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FJQOojiI6XY0C.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 - <span class="conference-badge">NeurIPS 2024</span>
 [(ProGraph) Can Large Language Models Analyze Graphs like Professionals? A Benchmark, Datasets and Models](https://arxiv.org/abs/2409.19667)
@@ -60,8 +60,8 @@ Xin Li\*, Weize Chen\*, Qizhi Chu, Haopeng Li, Zhaojun Sun, Ran Li, Chen Qian, Y
 Weize Chen\*, Yusheng Su\*, Jingwei Zuo, **Cheng Yang<sup>†</sup>**, Chenfei Yuan, Chi-Min Chan, Heyang Yu, Yaxi Lu, Yi-Hsin Hung, Chen Qian, Yujia Qin, Xin Cong, Ruobing Xie, Zhiyuan Liu<sup>†</sup>, Maosong Sun, Jie Zhou
 <!-- [**Source Code**](https://github.com/OpenBMB/AgentVerse) -->
 [![](https://img.shields.io/badge/Source Code-ffffff?logo=github&style=social)](https://github.com/OpenBMB/AgentVerse)
-<!-- <strong><span class='show_paper_citations' data='OlLjVUcAAAAJ:8AbLer7MMksC'></span></strong> -->
-<a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:8AbLer7MMksC'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2F8AbLer7MMksC.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
+<!-- <strong><span class='show_paper_citations' data='OlLjVUcAAAAJ:UHK10RUVsp4C'></span></strong> -->
+<a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:UHK10RUVsp4C'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FUHK10RUVsp4C.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 - <span class="conference-badge">WWW 2024</span>
 [GraphTranslator: Aligning Graph Model to Large Language Model for Open-ended Tasks](https://arxiv.org/abs/2402.07197)
@@ -333,7 +333,7 @@ Weize Chen, Yusheng Su, Jingwei Zuo, **Cheng Yang**, Chenfei Yuan, Chi-Min Chan,
 
 
 - <span class="conference-badge">arXiv preprint</span>
-[Towards graph foundation models: A survey and beyond](https://arxiv.org/abs/2310.11829)
+[Graph foundation models: Concepts, opportunities and challenges](https://arxiv.org/abs/2310.11829)
 Jiawei Liu, **Cheng Yang**, Zhiyuan Lu, Junze Chen, Yibo Li, Mengmei Zhang, Ting Bai, Yuan Fang, Lichao Sun, Philip S. Yu, Chuan Shi
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:vRqMK49ujn8C'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-2024-before%2Fselected_pubs%2FvRqMK49ujn8C.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
