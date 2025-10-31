@@ -1,0 +1,112 @@
+id,title,authors,arxiv_link,gs_year
+1,Chatdev: Communicative agents for software development,"Chen Qian, Wei Liu, Hongzhang Liu, Nuo Chen, Yufan Dang, Jiahao Li, Cheng Yang, Weize Chen, Yusheng Su, Xin Cong, Juyuan Xu, Dahai Li, Zhiyuan Liu, Maosong Sun",https://arxiv.org/abs/2307.07924v5,2024
+2,Tool learning with foundation models,"Yujia Qin, Shengding Hu, Yankai Lin, Weize Chen, Ning Ding, Ganqu Cui, Zheni Zeng, Yufei Huang, Chaojun Xiao, Chi Han, Yi Ren Fung, Yusheng Su, Huadong Wang, Cheng Qian, Runchu Tian, Kunlun Zhu, Shihao Liang, Xingyu Shen, Bokai Xu, Zhen Zhang, Yining Ye, Bowen Li, Ziwei Tang, Jing Yi, Yuzhang Zhu, Zhenning Dai, Lan Yan, Xin Cong, Yaxi Lu, Weilin Zhao, Yuxiang Huang, Junxi Yan, Xu Han, Xian Sun, Dahai Li, Jason Phang, Cheng Yang, Tongshuang Wu, Heng Ji, Zhiyuan Liu, Maosong Sun",https://arxiv.org/abs/2304.08354v3,2024
+3,GraphTranslator: Aligning Graph Model to Large Language Model for Open-ended Tasks,"Mengmei Zhang, Mingwei Sun, Peng Wang, Shen Fan, Yanhu Mo, Xiaoxiao Xu, Hong Liu, Cheng Yang, Chuan Shi",https://arxiv.org/abs/2402.07197v4,2024
+4,Internet of agents: Weaving a web of heterogeneous agents for collaborative intelligence,"Weize Chen, Ziming You, Ran Li, Yitong Guan, Chen Qian, Chenyang Zhao, Cheng Yang, Ruobing Xie, Zhiyuan Liu, Maosong Sun",https://arxiv.org/abs/2407.07061v2,2024
+5,Data-centric graph learning: A survey,"Yuxin Guo, Deyu Bo, Cheng Yang, Zhiyuan Lu, Zhongjian Zhang, Jixi Liu, Yufei Peng, Chuan Shi",https://arxiv.org/abs/2310.04987v3,2024
+6,Graph invariant learning with subgraph co-mixup for out-of-distribution generalization,"Tianrui Jia, Haoyang Li, Cheng Yang, Tao Tao, Chuan Shi",https://arxiv.org/abs/2312.10988v1,2024
+7,ChatMol: interactive molecular discovery with natural language,Not Found,Not Found,2024
+8,Multi-Agent Software Development through Cross-Team Collaboration,"Zhuoyun Du, Chen Qian, Wei Liu, Zihao Xie, Yifei Wang, Yufan Dang, Weize Chen, Cheng Yang",https://arxiv.org/abs/2406.08979v1,2024
+9,FairSIN: Achieving Fairness in Graph Neural Networks through Sensitive Information Neutralization,"Cheng Yang, Jixi Liu, Yunhe Yan, Chuan Shi",https://arxiv.org/abs/2403.12474v1,2024
+10,Iterative Experience Refinement of Software-Developing Agents,"Chen Qian, Jiahao Li, Yufan Dang, Wei Liu, YiFei Wang, Zihao Xie, Weize Chen, Cheng Yang, Yingli Zhang, Zhiyuan Liu, Maosong Sun",https://arxiv.org/abs/2405.04219v1,2024
+11,Beyond Natural Language: LLMs Leveraging Alternative Formats for Enhanced Reasoning and Communication,"Weize Chen, Chenfei Yuan, Jiarui Yuan, Yusheng Su, Chen Qian, Cheng Yang, Ruobing Xie, Zhiyuan Liu, Maosong Sun",https://arxiv.org/abs/2402.18439v3,2024
+12,Injecting multimodal information into rigid protein docking via bi-level optimization,Not Found,Not Found,2024
+13,Autonomous agents for collaborative task under information asymmetry,"Wei Liu, Chenxi Wang, Yifei Wang, Zihao Xie, Rennai Qiu, Yufan Dang, Zhuoyun Du, Weize Chen, Cheng Yang, Chen Qian",https://arxiv.org/abs/2406.14928v2,2024
+14,Scaling Large-Language-Model-based Multi-Agent Collaboration,"Chen Qian, Zihao Xie, Yifei Wang, Wei Liu, Yufan Dang, Zhuoyun Du, Weize Chen, Cheng Yang, Zhiyuan Liu, Maosong Sun",https://arxiv.org/abs/2406.07155v1,2024
+15,BurstAttention: An Efficient Distributed Attention Framework for Extremely Long Sequences,"Ao Sun, Weilin Zhao, Xu Han, Cheng Yang, Zhiyuan Liu, Chuan Shi, Maosong Sun",https://arxiv.org/abs/2403.09347v4,2024
+16,Endowing Pre-trained Graph Models with Provable Fairness,"Zhongjian Zhang, Mengmei Zhang, Yue Yu, Cheng Yang, Jiawei Liu, Chuan Shi",https://arxiv.org/abs/2402.12161v2,2024
+17,Optima: Optimizing effectiveness and efficiency for llm-based multi-agent system,"Weize Chen, Jiarui Yuan, Chen Qian, Cheng Yang, Zhiyuan Liu, Maosong Sun",https://arxiv.org/abs/2410.08115v1,2024
+18,"Can Large Language Models Analyze Graphs like Professionals? A Benchmark, Datasets and Models","Xin Li, Weize Chen, Qizhi Chu, Haopeng Li, Zhaojun Sun, Ran Li, Chen Qian, Yiwei Wei, Zhiyuan Liu, Chuan Shi, Maosong Sun, Cheng Yang",https://arxiv.org/abs/2409.19667v2,2024
+19,Graphteam: Facilitating large language model-based graph analysis via multi-agent collaboration,"Xin Li, Qizhi Chu, Yubin Chen, Yang Liu, Yaoqi Liu, Zekai Yu, Weize Chen, Chen Qian, Chuan Shi, Cheng Yang",https://arxiv.org/abs/2410.18032v3,2024
+20,Can Large Language Models Improve the Adversarial Robustness of Graph Neural Networks?,"Zhongjian Zhang, Xiao Wang, Huichi Zhou, Yue Yu, Mengmei Zhang, Cheng Yang, Chuan Shi",https://arxiv.org/abs/2408.08685v3,2024
+21,Seq1f1b: Efficient sequence-level pipeline parallelism for large language model training,"Ao Sun, Weilin Zhao, Xu Han, Cheng Yang, Xinrong Zhang, Zhiyuan Liu, Chuan Shi, Maosong Sun",https://arxiv.org/abs/2406.03488v5,2024
+22,Group-to-group recommendation with neural graph matching,Not Found,Not Found,2024
+23,Heterogeneous graph transformer with poly-tokenization,Not Found,Not Found,2024
+24,Efficient Multi-task Prompt Tuning for Recommendation,"Ting Bai, Le Huang, Yue Yu, Cheng Yang, Cheng Hou, Zhe Zhao, Chuan Shi",https://arxiv.org/abs/2408.17214v1,2024
+25,Advancing Molecule Invariant Representation via Privileged Substructure Identification,Not Found,Not Found,2024
+26,Adaptively Denoising Graph Neural Networks for Knowledge Distillation,Not Found,Not Found,2024
+27,Lecture-style Tutorial: Towards Graph Foundation Models,Not Found,Not Found,2024
+28,Calibrating Graph Neural Networks from a Data-centric Perspective,Not Found,Not Found,2024
+29,Adaptive negative representations for graph contrastive learning,Not Found,Not Found,2024
+30,Agentverse: Facilitating multi-agent collaboration and exploring emergent behaviors,"Weize Chen, Yusheng Su, Jingwei Zuo, Cheng Yang, Chenfei Yuan, Chi-Min Chan, Heyang Yu, Yaxi Lu, Yi-Hsin Hung, Chen Qian, Yujia Qin, Xin Cong, Ruobing Xie, Zhiyuan Liu, Maosong Sun, Jie Zhou",https://arxiv.org/abs/2308.10848v3,2023
+31,Graph foundation models: Concepts opportunities and challenges,"Jiawei Liu, Cheng Yang, Zhiyuan Lu, Junze Chen, Yibo Li, Mengmei Zhang, Ting Bai, Yuan Fang, Lichao Sun, Philip S. Yu, Chuan Shi",https://arxiv.org/abs/2310.11829v3,
+32,Ma-gcl: Model augmentation tricks for graph contrastive learning,Not Found,Not Found,2023
+33,Knowledge-adaptive contrastive learning for recommendation,Not Found,Not Found,2023
+34,Experiential co-learning of software-developing agents,"Chen Qian, Yufan Dang, Jiahao Li, Wei Liu, Zihao Xie, Yifei Wang, Weize Chen, Cheng Yang, Xin Cong, Xiaoyin Che, Zhiyuan Liu, Maosong Sun",https://arxiv.org/abs/2312.17025v3,2023
+35,A Data-centric Framework to Endow Graph Neural Networks with Out-Of-Distribution Detection Ability,Not Found,Not Found,2023
+36,Distance Information Improves Heterogeneous Graph Neural Networks,Not Found,Not Found,2023
+37,Learning to distill graph neural networks,Not Found,Not Found,2023
+38,Graph mining for cybersecurity: A survey,"Bo Yan, Cheng Yang, Chuan Shi, Yong Fang, Qi Li, Yanfang Ye, Junping Du",https://arxiv.org/abs/2304.00485v2,2023
+39,A Post-Training Framework for Improving Heterogeneous Graph Neural Networks,"Cheng Yang, Xumeng Gong, Chuan Shi, Philip S. Yu",https://arxiv.org/abs/2304.00698v1,2023
+40,Datasets and Interfaces for Benchmarking Heterogeneous Graph Neural Networks,Not Found,Not Found,2023
+41,Memory-enhanced period-aware graph neural network for general POI recommendation,Not Found,Not Found,2023
+42,Advances in Graph Neural Networks,Not Found,Not Found,2023
+43,Gammagl: A multi-backend library for graph neural networks,Not Found,Not Found,2023
+44,Abnormal event detection via hypergraph contrastive learning,"Bo Yan, Cheng Yang, Chuan Shi, Jiawei Liu, Xiaochen Wang",https://arxiv.org/abs/2304.01226v1,2023
+45,Graph Representation Learning,Not Found,Not Found,2023
+46,Few-shot link prediction in dynamic networks,Not Found,Not Found,2022
+47,"A survey on heterogeneous information network based recommender systems: Concepts, methods, applications and resources",Not Found,Not Found,2022
+48,"Space4hgnn: a novel, modularized and reproducible platform to evaluate heterogeneous graph neural network","Tianyu Zhao, Cheng Yang, Yibo Li, Quan Gan, Zhenyi Wang, Fengqi Liang, Huan Zhao, Yingxia Shao, Xiao Wang, Chuan Shi",https://arxiv.org/abs/2202.09177v2,2022
+49,Openhgnn: an open source toolkit for heterogeneous graph neural network,Not Found,Not Found,2022
+50,Co-clustering interactions via attentive hypergraph neural network,Not Found,Not Found,2022
+51,Midtd: A simple and effective distillation framework for distantly supervised relation extraction,Not Found,Not Found,2022
+52,"Network embedding: Theories, methods, and applications",Not Found,Not Found,2022
+53,Payment behavior prediction on shared parking lots with TR-GCN,Not Found,Not Found,2022
+54,A dual-expert framework for event argument extraction,Not Found,Not Found,2022
+55,Gated Hypergraph Neural Network for Scene-Aware Recommendation,Not Found,Not Found,2022
+56,Hypergraph Clustering Network for Interaction Data.,Not Found,Not Found,2022
+57,Future Direction and Conclusion,Not Found,Not Found,2022
+58,Extract the knowledge of graph neural networks and go beyond it: An effective knowledge distillation framework,"Cheng Yang, Jiawei Liu, Chuan Shi",https://arxiv.org/abs/2103.02885v1,2021
+59,Full-Scale Information Diffusion Prediction With Reinforced Recurrent Networks,Not Found,Not Found,2021
+60,Be confident! towards trustworthy graph neural networks via confidence calibration,"Xiao Wang, Hongrui Liu, Chuan Shi, Cheng Yang",https://arxiv.org/abs/2109.14285v3,2021
+61,Topic-aware heterogeneous graph neural network for link prediction,Not Found,Not Found,2021
+62,Periodic weather-aware LSTM with event mechanism for parking behavior prediction,Not Found,Not Found,2021
+63,From symbols to embeddings: A tale of two representations in computational social science,"Huimin Chen, Cheng Yang, Xuanming Zhang, Zhiyuan Liu, Maosong Sun, Jianbin Jin",https://arxiv.org/abs/2106.14198v1,2021
+64,Text-graph enhanced knowledge graph representation learning,Not Found,Not Found,2021
+65,Neural information diffusion prediction with topic-aware attention network,Not Found,Not Found,2021
+66,Package recommendation with intra-and inter-package attention networks,Not Found,Not Found,2021
+67,Treasures outside contexts: Improving event detection via global statistics,Not Found,Not Found,2021
+68,基于异质信息网络的推荐系统研究综述,Not Found,Not Found,2018
+69,Evaluating modules in graph contrastive learning,"Ganqu Cui, Yufeng Du, Cheng Yang, Jie Zhou, Liang Xu, Xing Zhou, Xingyi Cheng, Zhiyuan Liu",https://arxiv.org/abs/2106.08171v2,2021
+70,Semantic-specific hierarchical alignment network for heterogeneous graph adaptation,Not Found,Not Found,2021
+71,Tree-Capsule: Tree-Structured Capsule Network for Improving Relation Extraction,Not Found,Not Found,2021
+72,The Basics of Network Embedding,Not Found,Not Found,2021
+73,Network embedding for community-structured graphs,Not Found,Not Found,2021
+74,Network Embedding for Graphs with Node Contents,Not Found,Not Found,2021
+75,Network Embedding for Large-Scale Graphs,Not Found,Not Found,2021
+76,Network Embedding for Information Diffusion Prediction,Not Found,Not Found,2021
+77,Network Embedding for Heterogeneous Graphs,Not Found,Not Found,2021
+78,Network Embedding for Social Relation Extraction,Not Found,Not Found,2021
+79,Revisiting Attributed Network Embedding: A GCN-Based Perspective,Not Found,Not Found,2021
+80,Network Embedding for Recommendation Systems on LBSNs,Not Found,Not Found,2021
+81,Network Embedding for Graphs with Node Labels,Not Found,Not Found,2021
+82,Network Embedding for Graphs with Node Attributes,Not Found,Not Found,2021
+83,Network Embedding for General Graphs,Not Found,Not Found,2021
+84,Future Directions of Network Embedding,Not Found,Not Found,2021
+85,Graph neural networks: A review of methods and applications,"Jie Zhou, Ganqu Cui, Shengding Hu, Zhengyan Zhang, Cheng Yang, Zhiyuan Liu, Lifeng Wang, Changcheng Li, Maosong Sun",https://arxiv.org/abs/1812.08434v6,2020
+86,Adaptive graph encoder for attributed graph embedding,"Ganqu Cui, Jie Zhou, Cheng Yang, Zhiyuan Liu",https://arxiv.org/abs/2007.01594v1,2020
+87,Graph neural news recommendation with long-term and short-term interest modeling,"Linmei Hu, Chen Li, Chuan Shi, Cheng Yang, Chao Shao",https://arxiv.org/abs/1910.14025v2,2020
+88,Graph neural news recommendation with unsupervised preference disentanglement,Not Found,Not Found,2020
+89,Mixpoet: Diverse poetry generation via learning controllable mixed latent space,"Xiaoyuan Yi, Ruoyu Li, Cheng Yang, Wenhao Li, Maosong Sun",https://arxiv.org/abs/2003.06094v1,2020
+90,PewLSTM: Periodic LSTM with Weather-Aware Gating Mechanism for Parking Behavior Prediction.,Not Found,Not Found,2020
+91,Improving sequence modeling ability of recurrent neural networks via sememes,"Yujia Qin, Fanchao Qi, Sicong Ouyang, Zhiyuan Liu, Cheng Yang, Yasheng Wang, Qun Liu, Maosong Sun",https://arxiv.org/abs/1910.08910v2,2020
+92,Cosine: compressive network embedding on large-scale information networks,"Zhengyan Zhang, Cheng Yang, Zhiyuan Liu, Maosong Sun, Zhichong Fang, Bo Zhang, Leyu Lin",https://arxiv.org/abs/1812.08972v1,2020
+93,"KACC: A multi-task benchmark for knowledge abstraction, concretization and completion","Jie Zhou, Shengding Hu, Xin Lv, Cheng Yang, Zhiyuan Liu, Wei Xu, Jie Jiang, Juanzi Li, Maosong Sun",https://arxiv.org/abs/2004.13631v2,2020
+94,Information diffusion prediction with latent factor disentanglement,"Haoran Wang, Cheng Yang",https://arxiv.org/abs/2012.08828v1,2020
+95,Reinforced zero-shot cross-lingual neural headline generation,Not Found,Not Found,2020
+96,GEAR: Graph-based Evidence Aggregating and Reasoning for Fact Verification,"Jie Zhou, Xu Han, Cheng Yang, Zhiyuan Liu, Lifeng Wang, Changcheng Li, Maosong Sun",https://arxiv.org/abs/1908.01843v1,2019
+97,CED: Credible early detection of social media rumors,"Changhe Song, Cunchao Tu, Cheng Yang, Zhiyuan Liu, Maosong Sun",https://arxiv.org/abs/1811.04175v1,2019
+98,Neural diffusion model for microscopic cascade study,Not Found,Not Found,2019
+99,Sentiment-Controllable Chinese Poetry Generation.,Not Found,Not Found,2019
+100,Improving distantly-supervised relation extraction with joint label embedding,Not Found,Not Found,2019
+101,Jiuge: A human-machine collaborative chinese classical poetry generation system,Not Found,Not Found,2019
+102,Stylistic chinese poetry generation via unsupervised style disentanglement,Not Found,Not Found,2018
+103,Zero-shot cross-lingual neural headline generation,Not Found,Not Found,2018
+104,Chinese LIWC lexicon expansion via hierarchical classification of word embeddings with sememe attention,Not Found,Not Found,2018
+105,基于神经网络的集句诗自动生成,Not Found,Not Found,2018
+106,A neural network approach to jointly modeling social networks and mobile trajectories,Not Found,Not Found,2017
+107,Fast network embedding enhancement via high order proximity approximation.,Not Found,Not Found,2017
+108,网络表示学习综述,Not Found,Not Found,2018
+109,Real-time topic-aware influence maximization using preprocessing,"Wei Chen, Tian Lin, Cheng Yang",https://arxiv.org/abs/1403.0057v2,2016
+110,Network representation learning with rich text information,Not Found,Not Found,2015
+111,Comprehend deepwalk as matrix factorization,"Cheng Yang, Zhiyuan Liu",https://arxiv.org/abs/1501.00358v1,2015
