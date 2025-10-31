@@ -157,7 +157,8 @@ def main() -> int:
         if about.exists():
             txt = about.read_text(encoding='utf-8')
             import re
-            matches = re.findall(r"google-scholar-stats-([0-9]{4})/selected_pubs%2F([A-Za-z0-9_\-]+)\.json", txt)
+            # Match both '/selected_pubs%2F' and '%2Fselected_pubs%2F' since the URL is percent-encoded
+            matches = re.findall(r"google-scholar-stats-([0-9]{4})(?:/|%2F)selected_pubs%2F([A-Za-z0-9_\-]+)\.json", txt)
             fallback_pairs = {(sid, year) for year, sid in matches}
             print(f"[info] about.md fallback extracted {len(fallback_pairs)} id-year pairs")
             # Create stub entries in gs_data.json and append to year CSV so that yearly workflows can publish badges
