@@ -1,0 +1,19 @@
+{% comment %}
+  Renders a Google Scholar citations badge for a paper.
+  Usage: {% include gs_badge.html short_id='WF5omc3nYNoC' year='2020' %}
+  Optional: user_id (defaults to site.google_scholar_user)
+{% endcomment %}
+{% assign sid = include.short_id %}
+{% assign year = include.year %}
+{% assign scholar_user = include.user_id | default: site.google_scholar_user | default: 'OlLjVUcAAAAJ' %}
+
+{% if site.google_scholar_stats_use_cdn %}
+  {% assign json_url = 'https://cdn.jsdelivr.net/gh/' | append: site.repository | append: '@google-scholar-stats-' | append: year | append: '/selected_pubs/' | append: sid | append: '.json' %}
+{% else %}
+  {% assign json_url = 'https://raw.githubusercontent.com/' | append: site.repository | append: '/' | append: 'google-scholar-stats-' | append: year | append: '/selected_pubs/' | append: sid | append: '.json' %}
+{% endif %}
+
+<a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user={{ scholar_user }}&citation_for_view={{ scholar_user }}:{{ sid }}'>
+  <img src="https://img.shields.io/endpoint?url={{ json_url | uri_escape }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations">
+</a>.
+
