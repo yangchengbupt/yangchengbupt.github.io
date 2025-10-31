@@ -140,9 +140,57 @@ def main() -> int:
     results_dir = Path("results")
     results_dir.mkdir(exist_ok=True)
 
-    author = fetch_author(author_id, disable_proxy=args.no_proxy)
-    pubs = author.get("publications", [])
-    print(f"[info] fetched publications: {len(pubs)}")
+    pubs = []
+    try:
+        author = fetch_author(author_id, disable_proxy=args.no_proxy)
+        pubs = author.get("publications", [])
+        print(f"[info] fetched publications: {len(pubs)}")
+    except Exception as e:
+        print(f"[warn] scholar fetch failed after retries: {e}. Falling back to about.md scan.")
+        # Fallback to about.md: parse any badges to collect (year, short_id)
+        about = Path('_pages') / 'about.md'
+        if about.exists():
+            txt = about.read_text(encoding='utf-8')
+            import re
+            matches = re.findall(r"google-scholar-stats-([0-9]{4})/selected_pubs%2F([A-Za-z0-9_\-]+)\.json", txt)
+            fallback_pairs = {(sid, year) for year, sid in matches}
+            print(f"[info] about.md fallback extracted {len(fallback_pairs)} id-year pairs")
+            # Create stub entries in gs_data.json and append to year CSV so that yearly workflows can publish badges
+            results_dir = Path('results')
+            base = results_dir / 'gs_data.json'
+            try:
+                base_data = json.load(open(base, 'r', encoding='utf-8'))
+            except Exception:
+                base_data = {'publications': {}}
+            existing_sids = {k.split(':')[-1] for k in base_data.get('publications', {})}
+            repo = 'yangchengbupt/yangchengbupt.github.io'
+            added_stub = 0
+            for sid, year in sorted(fallback_pairs):
+                if sid in existing_sids:
+                    continue
+                long_id = f"OlLjVUcAAAAJ:{sid}"
+                base_data['publications'][long_id] = {
+                    'author_pub_id': long_id,
+                    'bib': {'title': '', 'pub_year': year},
+                    'num_citations': 0,
+                }
+                # Append row to year CSV so selected_pubs_by_year can generate the json later
+                row = {
+                    'title': '',
+                    'long_id': long_id,
+                    'short_id': sid,
+                    'pub_year': year,
+                    'citation_message': shields_message(repo, year, sid),
+                }
+                append_to_year_csv(results_dir, year, [row])
+                added_stub += 1
+            with open(base, 'w', encoding='utf-8') as f:
+                json.dump(base_data, f, ensure_ascii=False, indent=2)
+            print(f"[fallback] wrote {added_stub} stub entries into gs_data.json and year CSVs")
+            return 0
+        else:
+            print('[error] about.md not found; cannot fallback')
+            return 1
 
     existing = load_existing_ids(results_dir)
     print(f"[info] existing short_ids: {len(existing)}")
