@@ -72,7 +72,8 @@ def main():
     parser.add_argument("--src", default=None, help="Source gs_data json; default results/gs_data.json or results/gs_data_<year>.json if exists")
     args = parser.parse_args()
 
-    results_dir = Path("results")
+    # Anchor to repository root results/
+    results_dir = Path(__file__).resolve().parents[1] / "results"
     if args.src:
         gs_path = Path(args.src)
     else:
@@ -87,10 +88,7 @@ def main():
 
     # Robust fallback: if empty, try generic results/gs_data.json
     if len(pubs) == 0:
-        generic = Path("results") / "gs_data.json"
-        # When invoked from google_scholar_crawler/, also try ../results
-        if not generic.exists():
-            generic = Path(__file__).resolve().parents[1] / "results" / "gs_data.json"
+        generic = Path(__file__).resolve().parents[1] / "results" / "gs_data.json"
         if generic.exists() and generic != gs_path:
             try:
                 data2 = json.load(open(generic, "r", encoding="utf-8"))

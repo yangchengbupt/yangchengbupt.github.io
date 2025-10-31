@@ -19,6 +19,7 @@ jobs:
         run: |
           cd ./google_scholar_crawler
           pip3 install -r requirements.txt
+          rm -rf ./results || true
           # Clean old artifacts to ensure per-year branch only contains year-specific outputs
           rm -rf ../results/selected_pubs && mkdir -p ../results/selected_pubs
           rm -f ../results/all_publications_*.csv ../results/gs_data_*.json || true
@@ -28,11 +29,11 @@ jobs:
           python3 pubs_pre_by_year.py --year 2015 --src ../results/gs_data_2015.json --out ../results/all_publications_2015.csv
           python3 selected_pubs_by_year.py --year 2015 --csv ../results/all_publications_2015.csv --src ../results/gs_data_2015.json
           cd ../results
-          git init
+          git -c init.defaultBranch=main init
           git config --local user.name "${{ github.repository_owner }}"
           git config --local user.email "${{ github.repository_owner }}@users.noreply.github.com"
           export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
           git add all_publications_2015.csv gs_data_2015.json
-          git add selected_pubs/*.json
+          git add selected_pubs/*.json 2>/dev/null || true
           git commit -m "Updated Citation Data (2015)"
           git push "${remote_repo}" HEAD:google-scholar-stats-2015 --force

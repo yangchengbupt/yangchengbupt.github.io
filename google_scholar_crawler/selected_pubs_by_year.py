@@ -24,7 +24,9 @@ def find_citations_by_long_id(data: dict, target_long_id: str) -> Tuple[Optional
 
 
 def run_for_year(year: int, csv_path: Optional[str] = None, src_json: Optional[str] = None) -> None:
-    results_dir = Path('results')
+    # Always write to repository root results/ so that GH Actions (cd google_scholar_crawler)
+    # still publishes artifacts from the root directory.
+    results_dir = Path(__file__).resolve().parents[1] / 'results'
     sel_dir = results_dir / 'selected_pubs'
     sel_dir.mkdir(parents=True, exist_ok=True)
 

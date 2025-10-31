@@ -42,13 +42,29 @@ def main():
     id2year = build_id_year_map()
     original = ABOUT.read_text(encoding='utf-8')
     updated, n = replace_anchor_with_include(original, id2year)
-    if n:
-        ABOUT.write_text(updated, encoding='utf-8')
-        print(f'Replaced {n} scholar badges with Liquid include')
-    else:
-        print('No matching scholar badges found to replace')
+
+    # Pass 2: inline includes placed on their own line -> move to previous non-empty line
+    lines = updated.splitlines()
+    include_re = re.compile(r"^\s*\{\%\s*include\s+gs_badge\.html\s+short_id='[^']+'\s+year='[0-9]{4}'\s*\%\}\s*$")
+    out = []
+    for line in lines:
+        if include_re.match(line) and out:
+            # attach to previous non-empty line
+            i = len(out) - 1
+            # find nearest non-empty preceding line
+            while i >= 0 and out[i].strip() == "":
+                i -= 1
+            if i >= 0:
+                out[i] = out[i] + " " + line.strip()
+            else:
+                out.append(line)
+        else:
+            out.append(line)
+    updated2 = "\n".join(out) + ("\n" if updated.endswith("\n") else "")
+
+    ABOUT.write_text(updated2, encoding='utf-8')
+    print(f'Replaced {n} scholar badges with Liquid include; inlined standalone includes')
     return 0
 
 if __name__ == '__main__':
     raise SystemExit(main())
-
