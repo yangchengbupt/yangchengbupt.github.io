@@ -46,15 +46,35 @@ def run_for_year(year: int, csv_path: Optional[str] = None, src_json: Optional[s
     long_ids = read_long_ids_for_year(str(csv_file), str(year))
     data = json.load(open(gs_path, 'r'))
 
-    # If CSV is empty or missing rows (only header), derive long_ids from json directly
-    if not long_ids:
-        pubs = data.get('publications', {})
-        for pid, pinfo in pubs.items():
+    # Collect from src json
+    def ids_from_json(d):
+        out = []
+        for pid, pinfo in d.get('publications', {}).items():
             bib = pinfo.get('bib', {})
             if str(bib.get('pub_year') or '') == str(year):
-                long_id = pinfo.get('author_pub_id') or pid
-                if long_id:
-                    long_ids.append(long_id)
+                out.append(pinfo.get('author_pub_id') or pid)
+        return [i for i in out if i]
+
+    # Merge CSV ids with JSON ids
+    j_ids = ids_from_json(data)
+    id_set = set(long_ids)
+    for i in j_ids:
+        if i not in id_set:
+            long_ids.append(i)
+            id_set.add(i)
+
+    # Also merge from generic results/gs_data.json if provided src is a year json
+    generic = Path(__file__).resolve().parents[1] / 'results' / 'gs_data.json'
+    if generic.exists() and Path(gs_path) != generic:
+        try:
+            gd = json.load(open(generic, 'r'))
+            g_ids = ids_from_json(gd)
+            for i in g_ids:
+                if i not in id_set:
+                    long_ids.append(i)
+                    id_set.add(i)
+        except Exception:
+            pass
 
     saved = 0
     for long_id in long_ids:

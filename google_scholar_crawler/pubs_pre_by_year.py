@@ -86,17 +86,22 @@ def main():
     data = json.load(open(gs_path, "r", encoding="utf-8"))
     pubs = extract_year_publications(data, args.year)
 
-    # Robust fallback: if empty, try generic results/gs_data.json
-    if len(pubs) == 0:
-        generic = Path(__file__).resolve().parents[1] / "results" / "gs_data.json"
-        if generic.exists() and generic != gs_path:
-            try:
-                data2 = json.load(open(generic, "r", encoding="utf-8"))
-                pubs = extract_year_publications(data2, args.year)
-                if len(pubs) > 0:
-                    print(f"[info] Fallback to {generic} yielded {len(pubs)} rows.")
-            except Exception as e:
-                print(f"[warn] Fallback failed reading {generic}: {e}")
+    # Merge with generic results (union by long_id) to avoid undercount when year json is partial
+    generic = Path(__file__).resolve().parents[1] / "results" / "gs_data.json"
+    if generic.exists():
+        try:
+            data2 = json.load(open(generic, "r", encoding="utf-8"))
+            pubs2 = extract_year_publications(data2, args.year)
+            before = len(pubs)
+            seen = {p["long_id"] for p in pubs}
+            for r in pubs2:
+                if r["long_id"] not in seen:
+                    pubs.append(r)
+                    seen.add(r["long_id"])
+            if len(pubs) > before:
+                print(f"[info] Merge with generic added {len(pubs)-before} rows (now {len(pubs)}).")
+        except Exception as e:
+            print(f"[warn] Merge with generic failed: {e}")
     out_csv = Path(args.out) if args.out else results_dir / f"all_publications_{args.year}.csv"
     save_csv(pubs, out_csv)
     print(f"Saved {len(pubs)} rows to {out_csv}")
