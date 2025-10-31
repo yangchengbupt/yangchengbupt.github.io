@@ -3,10 +3,11 @@ import json
 import os
 from pathlib import Path
 import argparse
+from typing import List, Optional, Tuple
 
 
-def read_long_ids_for_year(csv_path: str, year: str) -> list[str]:
-    long_ids: list[str] = []
+def read_long_ids_for_year(csv_path: str, year: str) -> List[str]:
+    long_ids: List[str] = []
     with open(csv_path, 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
         for row in reader:
@@ -15,14 +16,14 @@ def read_long_ids_for_year(csv_path: str, year: str) -> list[str]:
     return [i for i in long_ids if i]
 
 
-def find_citations_by_long_id(data: dict, target_long_id: str):
+def find_citations_by_long_id(data: dict, target_long_id: str) -> Tuple[Optional[int], Optional[str]]:
     for paper_id, paper_info in data.get('publications', {}).items():
         if paper_info.get('author_pub_id') == target_long_id:
             return paper_info.get('num_citations'), paper_id
     return None, None
 
 
-def run_for_year(year: int, csv_path: str | None = None, src_json: str | None = None) -> None:
+def run_for_year(year: int, csv_path: Optional[str] = None, src_json: Optional[str] = None) -> None:
     results_dir = Path('results')
     sel_dir = results_dir / 'selected_pubs'
     sel_dir.mkdir(parents=True, exist_ok=True)
@@ -42,6 +43,16 @@ def run_for_year(year: int, csv_path: str | None = None, src_json: str | None = 
 
     long_ids = read_long_ids_for_year(str(csv_file), str(year))
     data = json.load(open(gs_path, 'r'))
+
+    # If CSV is empty or missing rows (only header), derive long_ids from json directly
+    if not long_ids:
+        pubs = data.get('publications', {})
+        for pid, pinfo in pubs.items():
+            bib = pinfo.get('bib', {})
+            if str(bib.get('pub_year') or '') == str(year):
+                long_id = pinfo.get('author_pub_id') or pid
+                if long_id:
+                    long_ids.append(long_id)
 
     saved = 0
     for long_id in long_ids:

@@ -8,6 +8,7 @@ import random
 import shutil
 from pathlib import Path
 import argparse
+from typing import Optional, Dict
 
 
 def init_proxy():
@@ -21,7 +22,7 @@ def init_proxy():
         print(f"[warn] Failed to initialize proxies: {e}")
 
 
-def fetch_author(author_id: str, max_retries: int = 5, base_delay: float = 2.0) -> dict | None:
+def fetch_author(author_id: str, max_retries: int = 5, base_delay: float = 2.0) -> Optional[Dict]:
     """Fetch full author (including publications) like legacy main, with retries."""
     init_proxy()
     for attempt in range(1, max_retries + 1):
@@ -64,7 +65,12 @@ def main():
             print(f'[info] Found existing {year_json}; keeping it.')
             return 0
         # Else fallback to generic results/gs_data.json if present
+        # Try repo results first, then cwd variants as extra safety
         generic = results_dir / 'gs_data.json'
+        if not generic.exists():
+            alt = Path('results') / 'gs_data.json'
+            if alt.exists():
+                generic = alt
         if generic.exists():
             try:
                 shutil.copyfile(generic, year_json)

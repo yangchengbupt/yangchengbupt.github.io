@@ -18,14 +18,20 @@ def extract_year_publications(data: dict, year: str):
         citation_message_part_1 = (
             "<a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OlLjVUcAAAAJ&citation_for_view=OlLjVUcAAAAJ:"
         )
+        # Point shields to this repo and year-specific results branch
         citation_message_part_2 = (
-            "'><img src=\"https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Falbertyang33%2Falbertyang33.github.io%2Fgoogle-scholar-stats%2Fselected_pubs%2F"
+            "'><img src=\"https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyangchengbupt%2Fyangchengbupt.github.io%2Fgoogle-scholar-stats-"
         )
         citation_message_part_3 = (
+            "/selected_pubs%2F"  # completed later with short_id
             ".json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations\"></a>."
         )
         citation_message = (
-            citation_message_part_1 + short_id + citation_message_part_2 + short_id + citation_message_part_3
+            citation_message_part_1
+            + short_id
+            + citation_message_part_2
+            + str(year)
+            + citation_message_part_3.replace("/selected_pubs%2F", f"/selected_pubs%2F{short_id}")
         )
         pubs.append(
             {
@@ -78,6 +84,21 @@ def main():
 
     data = json.load(open(gs_path, "r", encoding="utf-8"))
     pubs = extract_year_publications(data, args.year)
+
+    # Robust fallback: if empty, try generic results/gs_data.json
+    if len(pubs) == 0:
+        generic = Path("results") / "gs_data.json"
+        # When invoked from google_scholar_crawler/, also try ../results
+        if not generic.exists():
+            generic = Path(__file__).resolve().parents[1] / "results" / "gs_data.json"
+        if generic.exists() and generic != gs_path:
+            try:
+                data2 = json.load(open(generic, "r", encoding="utf-8"))
+                pubs = extract_year_publications(data2, args.year)
+                if len(pubs) > 0:
+                    print(f"[info] Fallback to {generic} yielded {len(pubs)} rows.")
+            except Exception as e:
+                print(f"[warn] Fallback failed reading {generic}: {e}")
     out_csv = Path(args.out) if args.out else results_dir / f"all_publications_{args.year}.csv"
     save_csv(pubs, out_csv)
     print(f"Saved {len(pubs)} rows to {out_csv}")
