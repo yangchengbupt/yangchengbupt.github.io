@@ -13,6 +13,7 @@
   {% assign json_url = 'https://raw.githubusercontent.com/' | append: site.repository | append: '/' | append: 'google-scholar-stats-' | append: year | append: '/selected_pubs/' | append: sid | append: '.json' %}
 {% endif %}
 
-<a href='https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user={{ scholar_user }}&citation_for_view={{ scholar_user }}:{{ sid }}'>
-  <img src="https://img.shields.io/endpoint?url={{ json_url | uri_escape }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations" style="vertical-align: baseline; margin-left: 6px;"/>
-</a>
+{% assign shields = 'https://img.shields.io/endpoint?url=' | append: (json_url | uri_escape) | append: '&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations' %}
+{% assign scholar_link = 'https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=' | append: scholar_user | append: '&citation_for_view=' | append: scholar_user | append: ':' | append: sid %}
+
+ {{ "" }}[![]({{ shields }})]({{ scholar_link }})
