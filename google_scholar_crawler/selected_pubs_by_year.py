@@ -65,6 +65,7 @@ def run_for_year(year: int, csv_path: Optional[str] = None, src_json: Optional[s
 
     # Also merge from generic results/gs_data.json if provided src is a year json
     generic = Path(__file__).resolve().parents[1] / 'results' / 'gs_data.json'
+    gd = None
     if generic.exists() and Path(gs_path) != generic:
         try:
             gd = json.load(open(generic, 'r'))
@@ -74,11 +75,13 @@ def run_for_year(year: int, csv_path: Optional[str] = None, src_json: Optional[s
                     long_ids.append(i)
                     id_set.add(i)
         except Exception:
-            pass
+            gd = None
 
     saved = 0
     for long_id in long_ids:
         citations, paper_id = find_citations_by_long_id(data, long_id)
+        if paper_id is None and gd is not None:
+            citations, paper_id = find_citations_by_long_id(gd, long_id)
         if paper_id is None:
             continue
         paper_id = paper_id.split(':')[-1]
