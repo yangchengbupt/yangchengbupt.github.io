@@ -3,6 +3,7 @@ name: Get Citation Data 2016
 on:
   schedule:
     - cron: '10 8 * * *'
+  workflow_dispatch:
 
 jobs:
   build:
@@ -18,14 +19,17 @@ jobs:
         run: |
           cd ./google_scholar_crawler
           pip3 install -r requirements.txt
+          rm -rf ../results/selected_pubs && mkdir -p ../results/selected_pubs
+          rm -f ../results/all_publications_*.csv ../results/gs_data_*.json || true
           python3 main_by_year.py --year 2016
           python3 pubs_pre_by_year.py --year 2016 --src ../results/gs_data_2016.json --out ../results/all_publications_2016.csv
-          python3 selected_pubs_by_year.py --year 2016 --csv ../results/all_publications_2016.csv
+          python3 selected_pubs_by_year.py --year 2016 --csv ../results/all_publications_2016.csv --src ../results/gs_data_2016.json
           cd ../results
           git init
           git config --local user.name "${{ github.repository_owner }}"
           git config --local user.email "${{ github.repository_owner }}@users.noreply.github.com"
           export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
-          git add .
+          git add all_publications_2016.csv gs_data_2016.json
+          git add selected_pubs/*.json
           git commit -m "Updated Citation Data (2016)"
           git push "${remote_repo}" HEAD:google-scholar-stats-2016 --force
