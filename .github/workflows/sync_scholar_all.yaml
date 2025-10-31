@@ -1,0 +1,34 @@
+name: Sync Scholar (All)
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 7 * * 1'  # weekly, Mon 07:35 UTC
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - name: Install deps
+        run: |
+          pip3 install scholarly jsonpickle httpx
+      - name: Sync scholar
+        env:
+          GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+        run: |
+          python3 tools/sync_scholar_all.py --delay 1.5
+      - name: Commit changes (main)
+        run: |
+          git config --local user.name "${{ github.repository_owner }}"
+          git config --local user.email "${{ github.repository_owner }}@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add results/
+            git commit -m "chore(sync): update results from Scholar (all)"
+            git push
+          else
+            echo "No changes to commit"
