@@ -22,6 +22,33 @@ jobs:
           GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
         run: |
           python3 tools/sync_scholar_all.py --delay 1.0 --no-proxy --retries 1 --about-only
+      - name: Build total citations shield (from results/gs_data.json)
+        run: |
+          python3 - << 'PY'
+          import json
+          path='results/gs_data.json'
+          cited=0
+          try:
+            with open(path,'r',encoding='utf-8') as f:
+              data=json.load(f)
+              cited=int(data.get('citedby') or 0)
+          except Exception as e:
+            print('[warn] cannot read',path,':',e)
+          out={'schemaVersion':1,'label':'citations','message':str(cited)}
+          with open('results/gs_data_shieldsio.json','w',encoding='utf-8') as f:
+            json.dump(out,f)
+          print('[info] total citations =', cited)
+          PY
+      - name: Publish total citations to stable branch (google-scholar-stats)
+        run: |
+          cd results
+          git -c init.defaultBranch=main init
+          git config --local user.name "${{ github.repository_owner }}"
+          git config --local user.email "${{ github.repository_owner }}@users.noreply.github.com"
+          export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
+          git add gs_data_shieldsio.json
+          git commit -m "Update scholar total citations"
+          git push "${remote_repo}" HEAD:google-scholar-stats --force
       - name: Commit changes (main)
         run: |
           git config --local user.name "${{ github.repository_owner }}"
