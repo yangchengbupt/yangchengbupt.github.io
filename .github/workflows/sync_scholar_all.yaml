@@ -1,4 +1,6 @@
-name: Sync Scholar (All)
+name: Sync Scholar (light)
+
+# name: Sync Scholar (All)
 
 on:
   workflow_dispatch:
